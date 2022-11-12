@@ -219,8 +219,8 @@
       }
     },
     "script/Counter.s.sol": {
-      "lastModificationDate": 1667959513730,
-      "contentHash": "1850b6d164b96b4e03d38cbb57358637",
+      "lastModificationDate": 1668270599195,
+      "contentHash": "0705c52104730a78aef4aa6694175c81",
       "sourceName": "script/Counter.s.sol",
       "solcConfig": {
         "settings": {
@@ -265,8 +265,8 @@
       }
     },
     "src/Ledger.sol": {
-      "lastModificationDate": 1668225426898,
-      "contentHash": "decbdfa69cbca2990a3af791fe38df90",
+      "lastModificationDate": 1668270599195,
+      "contentHash": "c1ac2d5031d7e646b1a9e3f6a4886951",
       "sourceName": "src/Ledger.sol",
       "solcConfig": {
         "settings": {
@@ -307,8 +307,8 @@
       }
     },
     "src/MeijiChef.sol": {
-      "lastModificationDate": 1668225963477,
-      "contentHash": "6943f165ba798cce7f1b50438db659d8",
+      "lastModificationDate": 1668271859516,
+      "contentHash": "0d8b3ce69f893bc011d84f38ae29d909",
       "sourceName": "src/MeijiChef.sol",
       "solcConfig": {
         "settings": {
@@ -352,8 +352,8 @@
       }
     },
     "src/interfaces/IERC20.sol": {
-      "lastModificationDate": 1667959513732,
-      "contentHash": "da337b36f786d26e7e0826fa874f8d27",
+      "lastModificationDate": 1668270599195,
+      "contentHash": "d3f395dc838796643e7a71419900ab23",
       "sourceName": "src/interfaces/IERC20.sol",
       "solcConfig": {
         "settings": {
@@ -392,8 +392,8 @@
       }
     },
     "src/libraries/GenericErrors.sol": {
-      "lastModificationDate": 1668221783384,
-      "contentHash": "e97fe4af9ffd9fc4cdde356d7f685c1e",
+      "lastModificationDate": 1668270599194,
+      "contentHash": "1e53461df82998c1a26e44df05b2c0b2",
       "sourceName": "src/libraries/GenericErrors.sol",
       "solcConfig": {
         "settings": {
@@ -432,8 +432,8 @@
       }
     },
     "src/libraries/StakingMath.sol": {
-      "lastModificationDate": 1668221673945,
-      "contentHash": "e8aa4a3eb25da518a25f3173f381b563",
+      "lastModificationDate": 1668270599195,
+      "contentHash": "7edac28afda506dda6e76048344a0f71",
       "sourceName": "src/libraries/StakingMath.sol",
       "solcConfig": {
         "settings": {

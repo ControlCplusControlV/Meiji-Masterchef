@@ -97,7 +97,7 @@
     "linkReferences": {}
   },
   "methodIdentifiers": {},
-  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"FailedTransfer\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"HighSlippage\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"InsufficientBalance\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"InvalidAmount\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"InvalidToken\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"InvalidType\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Locked\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"MismatchedArrayLengths\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"NoEffect\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"NonExistentToken\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"NullInput\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"OutOfBounds\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Overflow\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"TooEarly\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"TooLate\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Underflow\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"UnprivilegedCaller\",\"type\":\"error\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/libraries/GenericErrors.sol\":\"GenericErrors\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"src/libraries/GenericErrors.sol\":{\"keccak256\":\"0x2259e2847683e12db8c0999ff9aec68181f6353b8f4dc1ae319bfff8d9acd211\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7a09e011c4008772e3e33b1fb2da0e1f281ea06ba634ab69b83aef56abbfe725\",\"dweb:/ipfs/QmNYrC6GW3ugBmF4fZ9kAyprij4RheB9r4uWwqqGN27p2S\"]}},\"version\":1}",
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"FailedTransfer\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"HighSlippage\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"InsufficientBalance\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"InvalidAmount\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"InvalidToken\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"InvalidType\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Locked\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"MismatchedArrayLengths\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"NoEffect\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"NonExistentToken\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"NullInput\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"OutOfBounds\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Overflow\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"TooEarly\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"TooLate\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Underflow\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"UnprivilegedCaller\",\"type\":\"error\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/libraries/GenericErrors.sol\":\"GenericErrors\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"src/libraries/GenericErrors.sol\":{\"keccak256\":\"0x66e6c26e780d76105a3e96a3bccae491796985ba336344ace4cf644a68e133d3\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5a4b0a8cd4427e38805aba48f654d8127af658551f13374c8f6c2a90b06e0edc\",\"dweb:/ipfs/QmNQA4fWxMwmBeqZZJEbZ46q7VnQkTuQJy5jjvap7D2NiY\"]}},\"version\":1}",
   "metadata": {
     "compiler": {
       "version": "0.8.17+commit.8df45f5f"
@@ -221,10 +221,10 @@
     },
     "sources": {
       "src/libraries/GenericErrors.sol": {
-        "keccak256": "0x2259e2847683e12db8c0999ff9aec68181f6353b8f4dc1ae319bfff8d9acd211",
+        "keccak256": "0x66e6c26e780d76105a3e96a3bccae491796985ba336344ace4cf644a68e133d3",
         "urls": [
-          "bzz-raw://7a09e011c4008772e3e33b1fb2da0e1f281ea06ba634ab69b83aef56abbfe725",
-          "dweb:/ipfs/QmNYrC6GW3ugBmF4fZ9kAyprij4RheB9r4uWwqqGN27p2S"
+          "bzz-raw://5a4b0a8cd4427e38805aba48f654d8127af658551f13374c8f6c2a90b06e0edc",
+          "dweb:/ipfs/QmNQA4fWxMwmBeqZZJEbZ46q7VnQkTuQJy5jjvap7D2NiY"
         ],
         "license": "MIT"
       }
@@ -233,19 +233,19 @@
   },
   "ast": {
     "absolutePath": "src/libraries/GenericErrors.sol",
-    "id": 587,
+    "id": 18420,
     "exportedSymbols": {
       "GenericErrors": [
-        586
+        18419
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "33:515:3",
+    "src": "32:494:9",
     "nodes": [
       {
-        "id": 551,
+        "id": 18384,
         "nodeType": "PragmaDirective",
-        "src": "33:23:3",
+        "src": "32:23:9",
         "literals": [
           "solidity",
           "^",
@@ -254,246 +254,246 @@
         ]
       },
       {
-        "id": 586,
+        "id": 18419,
         "nodeType": "ContractDefinition",
-        "src": "60:486:3",
+        "src": "57:468:9",
         "nodes": [
           {
-            "id": 553,
+            "id": 18386,
             "nodeType": "ErrorDefinition",
-            "src": "91:15:3",
+            "src": "87:15:9",
             "errorSelector": "0f2e5b6c",
             "name": "Locked",
-            "nameLocation": "97:6:3",
+            "nameLocation": "93:6:9",
             "parameters": {
-              "id": 552,
+              "id": 18385,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "103:2:3"
+              "src": "99:2:9"
             }
           },
           {
-            "id": 555,
+            "id": 18388,
             "nodeType": "ErrorDefinition",
-            "src": "112:16:3",
+            "src": "107:16:9",
             "errorSelector": "ecdd1c29",
             "name": "TooLate",
-            "nameLocation": "118:7:3",
+            "nameLocation": "113:7:9",
             "parameters": {
-              "id": 554,
+              "id": 18387,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "125:2:3"
+              "src": "120:2:9"
             }
           },
           {
-            "id": 557,
+            "id": 18390,
             "nodeType": "ErrorDefinition",
-            "src": "134:17:3",
+            "src": "128:17:9",
             "errorSelector": "085de625",
             "name": "TooEarly",
-            "nameLocation": "140:8:3",
+            "nameLocation": "134:8:9",
             "parameters": {
-              "id": 556,
+              "id": 18389,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "148:2:3"
+              "src": "142:2:9"
             }
           },
           {
-            "id": 559,
+            "id": 18392,
             "nodeType": "ErrorDefinition",
-            "src": "157:17:3",
+            "src": "150:17:9",
             "errorSelector": "35278d12",
             "name": "Overflow",
-            "nameLocation": "163:8:3",
+            "nameLocation": "156:8:9",
             "parameters": {
-              "id": 558,
+              "id": 18391,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "171:2:3"
+              "src": "164:2:9"
             }
           },
           {
-            "id": 561,
+            "id": 18394,
             "nodeType": "ErrorDefinition",
-            "src": "180:17:3",
+            "src": "172:17:9",
             "errorSelector": "49a0cb3a",
             "name": "NoEffect",
-            "nameLocation": "186:8:3",
+            "nameLocation": "178:8:9",
             "parameters": {
-              "id": 560,
+              "id": 18393,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "194:2:3"
+              "src": "186:2:9"
             }
           },
           {
-            "id": 563,
+            "id": 18396,
             "nodeType": "ErrorDefinition",
-            "src": "203:18:3",
+            "src": "194:18:9",
             "errorSelector": "4a0bd986",
             "name": "NullInput",
-            "nameLocation": "209:9:3",
+            "nameLocation": "200:9:9",
             "parameters": {
-              "id": 562,
+              "id": 18395,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "218:2:3"
+              "src": "209:2:9"
             }
           },
           {
-            "id": 565,
+            "id": 18398,
             "nodeType": "ErrorDefinition",
-            "src": "227:18:3",
+            "src": "217:18:9",
             "errorSelector": "caccb6d9",
             "name": "Underflow",
-            "nameLocation": "233:9:3",
+            "nameLocation": "223:9:9",
             "parameters": {
-              "id": 564,
+              "id": 18397,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "242:2:3"
+              "src": "232:2:9"
             }
           },
           {
-            "id": 567,
+            "id": 18400,
             "nodeType": "ErrorDefinition",
-            "src": "251:20:3",
+            "src": "240:20:9",
             "errorSelector": "b9688461",
             "name": "InvalidType",
-            "nameLocation": "257:11:3",
+            "nameLocation": "246:11:9",
             "parameters": {
-              "id": 566,
+              "id": 18399,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "268:2:3"
+              "src": "257:2:9"
             }
           },
           {
-            "id": 569,
+            "id": 18402,
             "nodeType": "ErrorDefinition",
-            "src": "277:20:3",
+            "src": "265:20:9",
             "errorSelector": "b4120f14",
             "name": "OutOfBounds",
-            "nameLocation": "283:11:3",
+            "nameLocation": "271:11:9",
             "parameters": {
-              "id": 568,
+              "id": 18401,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "294:2:3"
+              "src": "282:2:9"
             }
           },
           {
-            "id": 571,
+            "id": 18404,
             "nodeType": "ErrorDefinition",
-            "src": "303:21:3",
+            "src": "290:21:9",
             "errorSelector": "c1ab6dc1",
             "name": "InvalidToken",
-            "nameLocation": "309:12:3",
+            "nameLocation": "296:12:9",
             "parameters": {
-              "id": 570,
+              "id": 18403,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "321:2:3"
+              "src": "308:2:9"
             }
           },
           {
-            "id": 573,
+            "id": 18406,
             "nodeType": "ErrorDefinition",
-            "src": "330:21:3",
+            "src": "316:21:9",
             "errorSelector": "4c9b2c59",
             "name": "HighSlippage",
-            "nameLocation": "336:12:3",
+            "nameLocation": "322:12:9",
             "parameters": {
-              "id": 572,
+              "id": 18405,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "348:2:3"
+              "src": "334:2:9"
             }
           },
           {
-            "id": 575,
+            "id": 18408,
             "nodeType": "ErrorDefinition",
-            "src": "357:22:3",
+            "src": "342:22:9",
             "errorSelector": "2c5211c6",
             "name": "InvalidAmount",
-            "nameLocation": "363:13:3",
+            "nameLocation": "348:13:9",
             "parameters": {
-              "id": 574,
+              "id": 18407,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "376:2:3"
+              "src": "361:2:9"
             }
           },
           {
-            "id": 577,
+            "id": 18410,
             "nodeType": "ErrorDefinition",
-            "src": "385:23:3",
+            "src": "369:23:9",
             "errorSelector": "bfa871c5",
             "name": "FailedTransfer",
-            "nameLocation": "391:14:3",
+            "nameLocation": "375:14:9",
             "parameters": {
-              "id": 576,
+              "id": 18409,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "405:2:3"
+              "src": "389:2:9"
             }
           },
           {
-            "id": 579,
+            "id": 18412,
             "nodeType": "ErrorDefinition",
-            "src": "414:25:3",
+            "src": "397:25:9",
             "errorSelector": "9430a17e",
             "name": "NonExistentToken",
-            "nameLocation": "420:16:3",
+            "nameLocation": "403:16:9",
             "parameters": {
-              "id": 578,
+              "id": 18411,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "436:2:3"
+              "src": "419:2:9"
             }
           },
           {
-            "id": 581,
+            "id": 18414,
             "nodeType": "ErrorDefinition",
-            "src": "445:27:3",
+            "src": "427:27:9",
             "errorSelector": "38c58562",
             "name": "UnprivilegedCaller",
-            "nameLocation": "451:18:3",
+            "nameLocation": "433:18:9",
             "parameters": {
-              "id": 580,
+              "id": 18413,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "469:2:3"
+              "src": "451:2:9"
             }
           },
           {
-            "id": 583,
+            "id": 18416,
             "nodeType": "ErrorDefinition",
-            "src": "478:28:3",
+            "src": "459:28:9",
             "errorSelector": "f4d678b8",
             "name": "InsufficientBalance",
-            "nameLocation": "484:19:3",
+            "nameLocation": "465:19:9",
             "parameters": {
-              "id": 582,
+              "id": 18415,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "503:2:3"
+              "src": "484:2:9"
             }
           },
           {
-            "id": 585,
+            "id": 18418,
             "nodeType": "ErrorDefinition",
-            "src": "512:31:3",
+            "src": "492:31:9",
             "errorSelector": "568efce2",
             "name": "MismatchedArrayLengths",
-            "nameLocation": "518:22:3",
+            "nameLocation": "498:22:9",
             "parameters": {
-              "id": 584,
+              "id": 18417,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "540:2:3"
+              "src": "520:2:9"
             }
           }
         ],
@@ -504,33 +504,33 @@
         "contractKind": "interface",
         "fullyImplemented": true,
         "linearizedBaseContracts": [
-          586
+          18419
         ],
         "name": "GenericErrors",
-        "nameLocation": "70:13:3",
-        "scope": 587,
+        "nameLocation": "67:13:9",
+        "scope": 18420,
         "usedErrors": [
-          553,
-          555,
-          557,
-          559,
-          561,
-          563,
-          565,
-          567,
-          569,
-          571,
-          573,
-          575,
-          577,
-          579,
-          581,
-          583,
-          585
+          18386,
+          18388,
+          18390,
+          18392,
+          18394,
+          18396,
+          18398,
+          18400,
+          18402,
+          18404,
+          18406,
+          18408,
+          18410,
+          18412,
+          18414,
+          18416,
+          18418
         ]
       }
     ],
     "license": "MIT"
   },
-  "id": 3
+  "id": 9
 }

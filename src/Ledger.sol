@@ -45,21 +45,32 @@ contract Ledger {
         uint48 lastUpdate;
     }
 
-    
-    /** @notice The mapping of position identifiers to their properties. */
+    /**
+     * @notice The mapping of position identifiers to their properties.
+     */
     mapping(address => mapping(uint8 => Account)) public accounts;
 
-    /** @notice The struct holding the totalStaked and sumOfEntryTimes. */
+    /**
+     * @notice The struct holding the totalStaked and sumOfEntryTimes.
+     */
     ValueVariables public totalValueVariables;
 
-    /** @notice The variables that govern the reward distribution. */
+    /**
+     * @notice The variables that govern the reward distribution.
+     */
     RewardSummations public rewardSummationsStored;
 
-    uint256 public constant PRECISION = 2**128;
+    uint256 public constant PRECISION = 2 ** 128;
 
-    /** @notice The rewards given out per second during a reward period. */
+    /**
+     * @notice The rewards given out per second during a reward period.
+     */
     uint80 public _rewardRate;
 
-    /** @notice The timestamp when the current period will end or the latest period has ended. */
+    /**
+     * @notice The timestamp when the current period will end or the latest period has ended.
+     */
     uint40 public periodFinish;
+
+    uint40 public lastUpdate;
 }

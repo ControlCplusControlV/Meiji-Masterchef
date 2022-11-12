@@ -1,17 +1,17 @@
 {
   "abi": [],
   "bytecode": {
-    "object": "0x60566037600b82828239805160001a607314602a57634e487b7160e01b600052600060045260246000fd5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220777a95c40884d96332cd20abc0868818ba2d40dc8d1eba96d062b56789c3539164736f6c63430008110033",
-    "sourceMap": "28:3423:4:-:0;;;;;;;;;;;;;;;-1:-1:-1;;;28:3423:4;;;;;;;;;;;;;;;;;",
+    "object": "0x60566037600b82828239805160001a607314602a57634e487b7160e01b600052600060045260246000fd5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea264697066735822122018d66083c2a97c7976b0ef4bb3654793f716866059d5a45e17f2a9789fe06e7b64736f6c63430008110033",
+    "sourceMap": "26:3383:10:-:0;;;;;;;;;;;;;;;-1:-1:-1;;;26:3383:10;;;;;;;;;;;;;;;;;",
     "linkReferences": {}
   },
   "deployedBytecode": {
-    "object": "0x73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220777a95c40884d96332cd20abc0868818ba2d40dc8d1eba96d062b56789c3539164736f6c63430008110033",
-    "sourceMap": "28:3423:4:-:0;;;;;;;;",
+    "object": "0x73000000000000000000000000000000000000000030146080604052600080fdfea264697066735822122018d66083c2a97c7976b0ef4bb3654793f716866059d5a45e17f2a9789fe06e7b64736f6c63430008110033",
+    "sourceMap": "26:3383:10:-:0;;;;;;;;",
     "linkReferences": {}
   },
   "methodIdentifiers": {},
-  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/libraries/StakingMath.sol\":\"StakingMath\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"src/libraries/StakingMath.sol\":{\"keccak256\":\"0x910635b5689a63ca27dda66cc75380dde7b0fac552411574f63e6c5a8c8fc57e\",\"urls\":[\"bzz-raw://3a0606569ad041f4fb55e3fafc05d24ac7d116df92091f3ef25076a8502f96bd\",\"dweb:/ipfs/Qmao3ivK5wWTkuaPJiBnVzaR1xvpGqgG3Jr3gwatkP4RjL\"]}},\"version\":1}",
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/libraries/StakingMath.sol\":\"StakingMath\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"src/libraries/StakingMath.sol\":{\"keccak256\":\"0x423983ce81b8b0282a85f661da67e61f129a6730ca941bef8562ab10e256c9fa\",\"urls\":[\"bzz-raw://d3f55ba746e2448eebdc8be463bd8e94c65f692aa528b65efa782f1130e93632\",\"dweb:/ipfs/QmSQonQ1Tt1LPREdWvowxznKdYdZCaKw45jWpcrCVfSoYC\"]}},\"version\":1}",
   "metadata": {
     "compiler": {
       "version": "0.8.17+commit.8df45f5f"
@@ -49,10 +49,10 @@
     },
     "sources": {
       "src/libraries/StakingMath.sol": {
-        "keccak256": "0x910635b5689a63ca27dda66cc75380dde7b0fac552411574f63e6c5a8c8fc57e",
+        "keccak256": "0x423983ce81b8b0282a85f661da67e61f129a6730ca941bef8562ab10e256c9fa",
         "urls": [
-          "bzz-raw://3a0606569ad041f4fb55e3fafc05d24ac7d116df92091f3ef25076a8502f96bd",
-          "dweb:/ipfs/Qmao3ivK5wWTkuaPJiBnVzaR1xvpGqgG3Jr3gwatkP4RjL"
+          "bzz-raw://d3f55ba746e2448eebdc8be463bd8e94c65f692aa528b65efa782f1130e93632",
+          "dweb:/ipfs/QmSQonQ1Tt1LPREdWvowxznKdYdZCaKw45jWpcrCVfSoYC"
         ],
         "license": null
       }
@@ -61,19 +61,19 @@
   },
   "ast": {
     "absolutePath": "src/libraries/StakingMath.sol",
-    "id": 709,
+    "id": 18542,
     "exportedSymbols": {
       "StakingMath": [
-        708
+        18541
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "0:3451:4",
+    "src": "0:3410:10",
     "nodes": [
       {
-        "id": 588,
+        "id": 18421,
         "nodeType": "PragmaDirective",
-        "src": "0:24:4",
+        "src": "0:24:10",
         "literals": [
           "solidity",
           "^",
@@ -82,25 +82,25 @@
         ]
       },
       {
-        "id": 708,
+        "id": 18541,
         "nodeType": "ContractDefinition",
-        "src": "28:3423:4",
+        "src": "26:3383:10",
         "nodes": [
           {
-            "id": 593,
+            "id": 18426,
             "nodeType": "StructDefinition",
-            "src": "55:262:4",
+            "src": "52:257:10",
             "canonicalName": "StakingMath.ValueVariables",
             "members": [
               {
                 "constant": false,
-                "id": 590,
+                "id": 18423,
                 "mutability": "mutable",
                 "name": "balance",
-                "nameLocation": "168:7:4",
+                "nameLocation": "163:7:10",
                 "nodeType": "VariableDeclaration",
-                "scope": 593,
-                "src": "161:14:4",
+                "scope": 18426,
+                "src": "156:14:10",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -108,10 +108,10 @@
                   "typeString": "uint96"
                 },
                 "typeName": {
-                  "id": 589,
+                  "id": 18422,
                   "name": "uint96",
                   "nodeType": "ElementaryTypeName",
-                  "src": "161:6:4",
+                  "src": "156:6:10",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint96",
                     "typeString": "uint96"
@@ -121,13 +121,13 @@
               },
               {
                 "constant": false,
-                "id": 592,
+                "id": 18425,
                 "mutability": "mutable",
                 "name": "sumOfEntryTimes",
-                "nameLocation": "294:15:4",
+                "nameLocation": "287:15:10",
                 "nodeType": "VariableDeclaration",
-                "scope": 593,
-                "src": "286:23:4",
+                "scope": 18426,
+                "src": "279:23:10",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -135,10 +135,10 @@
                   "typeString": "uint160"
                 },
                 "typeName": {
-                  "id": 591,
+                  "id": 18424,
                   "name": "uint160",
                   "nodeType": "ElementaryTypeName",
-                  "src": "286:7:4",
+                  "src": "279:7:10",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint160",
                     "typeString": "uint160"
@@ -148,25 +148,25 @@
               }
             ],
             "name": "ValueVariables",
-            "nameLocation": "62:14:4",
-            "scope": 708,
+            "nameLocation": "59:14:10",
+            "scope": 18541,
             "visibility": "public"
           },
           {
-            "id": 598,
+            "id": 18431,
             "nodeType": "StructDefinition",
-            "src": "325:1026:4",
+            "src": "315:1013:10",
             "canonicalName": "StakingMath.RewardSummations",
             "members": [
               {
                 "constant": false,
-                "id": 595,
+                "id": 18428,
                 "mutability": "mutable",
                 "name": "idealPosition",
-                "nameLocation": "911:13:4",
+                "nameLocation": "894:13:10",
                 "nodeType": "VariableDeclaration",
-                "scope": 598,
-                "src": "903:21:4",
+                "scope": 18431,
+                "src": "886:21:10",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -174,10 +174,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 594,
+                  "id": 18427,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
-                  "src": "903:7:4",
+                  "src": "886:7:10",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -187,13 +187,13 @@
               },
               {
                 "constant": false,
-                "id": 597,
+                "id": 18430,
                 "mutability": "mutable",
                 "name": "rewardPerValue",
-                "nameLocation": "1329:14:4",
+                "nameLocation": "1307:14:10",
                 "nodeType": "VariableDeclaration",
-                "scope": 598,
-                "src": "1321:22:4",
+                "scope": 18431,
+                "src": "1299:22:10",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -201,10 +201,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 596,
+                  "id": 18429,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
-                  "src": "1321:7:4",
+                  "src": "1299:7:10",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -214,48 +214,48 @@
               }
             ],
             "name": "RewardSummations",
-            "nameLocation": "332:16:4",
-            "scope": 708,
+            "nameLocation": "322:16:10",
+            "scope": 18541,
             "visibility": "public"
           },
           {
-            "id": 609,
+            "id": 18442,
             "nodeType": "StructDefinition",
-            "src": "1359:1040:4",
+            "src": "1334:1025:10",
             "canonicalName": "StakingMath.Account",
             "members": [
               {
                 "constant": false,
-                "id": 601,
+                "id": 18434,
                 "mutability": "mutable",
                 "name": "valueVariables",
-                "nameLocation": "1483:14:4",
+                "nameLocation": "1456:14:10",
                 "nodeType": "VariableDeclaration",
-                "scope": 609,
-                "src": "1468:29:4",
+                "scope": 18442,
+                "src": "1441:29:10",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_ValueVariables_$593_storage_ptr",
+                  "typeIdentifier": "t_struct$_ValueVariables_$18426_storage_ptr",
                   "typeString": "struct StakingMath.ValueVariables"
                 },
                 "typeName": {
-                  "id": 600,
+                  "id": 18433,
                   "nodeType": "UserDefinedTypeName",
                   "pathNode": {
-                    "id": 599,
+                    "id": 18432,
                     "name": "ValueVariables",
                     "nameLocations": [
-                      "1468:14:4"
+                      "1441:14:10"
                     ],
                     "nodeType": "IdentifierPath",
-                    "referencedDeclaration": 593,
-                    "src": "1468:14:4"
+                    "referencedDeclaration": 18426,
+                    "src": "1441:14:10"
                   },
-                  "referencedDeclaration": 593,
-                  "src": "1468:14:4",
+                  "referencedDeclaration": 18426,
+                  "src": "1441:14:10",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_ValueVariables_$593_storage_ptr",
+                    "typeIdentifier": "t_struct$_ValueVariables_$18426_storage_ptr",
                     "typeString": "struct StakingMath.ValueVariables"
                   }
                 },
@@ -263,36 +263,36 @@
               },
               {
                 "constant": false,
-                "id": 604,
+                "id": 18437,
                 "mutability": "mutable",
                 "name": "rewardSummationsPaid",
-                "nameLocation": "1596:20:4",
+                "nameLocation": "1567:20:10",
                 "nodeType": "VariableDeclaration",
-                "scope": 609,
-                "src": "1579:37:4",
+                "scope": 18442,
+                "src": "1550:37:10",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_RewardSummations_$598_storage_ptr",
+                  "typeIdentifier": "t_struct$_RewardSummations_$18431_storage_ptr",
                   "typeString": "struct StakingMath.RewardSummations"
                 },
                 "typeName": {
-                  "id": 603,
+                  "id": 18436,
                   "nodeType": "UserDefinedTypeName",
                   "pathNode": {
-                    "id": 602,
+                    "id": 18435,
                     "name": "RewardSummations",
                     "nameLocations": [
-                      "1579:16:4"
+                      "1550:16:10"
                     ],
                     "nodeType": "IdentifierPath",
-                    "referencedDeclaration": 598,
-                    "src": "1579:16:4"
+                    "referencedDeclaration": 18431,
+                    "src": "1550:16:10"
                   },
-                  "referencedDeclaration": 598,
-                  "src": "1579:16:4",
+                  "referencedDeclaration": 18431,
+                  "src": "1550:16:10",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_RewardSummations_$598_storage_ptr",
+                    "typeIdentifier": "t_struct$_RewardSummations_$18431_storage_ptr",
                     "typeString": "struct StakingMath.RewardSummations"
                   }
                 },
@@ -300,13 +300,13 @@
               },
               {
                 "constant": false,
-                "id": 606,
+                "id": 18439,
                 "mutability": "mutable",
                 "name": "previousValues",
-                "nameLocation": "2297:14:4",
+                "nameLocation": "2260:14:10",
                 "nodeType": "VariableDeclaration",
-                "scope": 609,
-                "src": "2289:22:4",
+                "scope": 18442,
+                "src": "2252:22:10",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -314,10 +314,10 @@
                   "typeString": "uint160"
                 },
                 "typeName": {
-                  "id": 605,
+                  "id": 18438,
                   "name": "uint160",
                   "nodeType": "ElementaryTypeName",
-                  "src": "2289:7:4",
+                  "src": "2252:7:10",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint160",
                     "typeString": "uint160"
@@ -327,13 +327,13 @@
               },
               {
                 "constant": false,
-                "id": 608,
+                "id": 18441,
                 "mutability": "mutable",
                 "name": "lastUpdate",
-                "nameLocation": "2381:10:4",
+                "nameLocation": "2342:10:10",
                 "nodeType": "VariableDeclaration",
-                "scope": 609,
-                "src": "2374:17:4",
+                "scope": 18442,
+                "src": "2335:17:10",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -341,10 +341,10 @@
                   "typeString": "uint48"
                 },
                 "typeName": {
-                  "id": 607,
+                  "id": 18440,
                   "name": "uint48",
                   "nodeType": "ElementaryTypeName",
-                  "src": "2374:6:4",
+                  "src": "2335:6:10",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint48",
                     "typeString": "uint48"
@@ -354,19 +354,19 @@
               }
             ],
             "name": "Account",
-            "nameLocation": "1366:7:4",
-            "scope": 708,
+            "nameLocation": "1341:7:10",
+            "scope": 18541,
             "visibility": "public"
           },
           {
-            "id": 614,
+            "id": 18447,
             "nodeType": "VariableDeclaration",
-            "src": "2407:43:4",
+            "src": "2365:45:10",
             "constant": true,
             "mutability": "constant",
             "name": "PRECISION",
-            "nameLocation": "2432:9:4",
-            "scope": 708,
+            "nameLocation": "2390:9:10",
+            "scope": 18541,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -374,10 +374,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 610,
+              "id": 18443,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "2407:7:4",
+              "src": "2365:7:10",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -388,21 +388,21 @@
                 "typeIdentifier": "t_rational_340282366920938463463374607431768211456_by_1",
                 "typeString": "int_const 3402...(31 digits omitted)...1456"
               },
-              "id": 613,
+              "id": 18446,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
               "lValueRequested": false,
               "leftExpression": {
                 "hexValue": "32",
-                "id": 611,
+                "id": 18444,
                 "isConstant": false,
                 "isLValue": false,
                 "isPure": true,
                 "kind": "number",
                 "lValueRequested": false,
                 "nodeType": "Literal",
-                "src": "2444:1:4",
+                "src": "2402:1:10",
                 "typeDescriptions": {
                   "typeIdentifier": "t_rational_2_by_1",
                   "typeString": "int_const 2"
@@ -413,21 +413,21 @@
               "operator": "**",
               "rightExpression": {
                 "hexValue": "313238",
-                "id": 612,
+                "id": 18445,
                 "isConstant": false,
                 "isLValue": false,
                 "isPure": true,
                 "kind": "number",
                 "lValueRequested": false,
                 "nodeType": "Literal",
-                "src": "2447:3:4",
+                "src": "2407:3:10",
                 "typeDescriptions": {
                   "typeIdentifier": "t_rational_128_by_1",
                   "typeString": "int_const 128"
                 },
                 "value": "128"
               },
-              "src": "2444:6:4",
+              "src": "2402:8:10",
               "typeDescriptions": {
                 "typeIdentifier": "t_rational_340282366920938463463374607431768211456_by_1",
                 "typeString": "int_const 3402...(31 digits omitted)...1456"
@@ -436,13 +436,13 @@
             "visibility": "private"
           },
           {
-            "id": 671,
+            "id": 18504,
             "nodeType": "FunctionDefinition",
-            "src": "2461:620:4",
+            "src": "2417:631:10",
             "body": {
-              "id": 670,
+              "id": 18503,
               "nodeType": "Block",
-              "src": "2615:466:4",
+              "src": "2567:481:10",
               "statements": [
                 {
                   "condition": {
@@ -450,34 +450,34 @@
                       "typeIdentifier": "t_uint48",
                       "typeString": "uint48"
                     },
-                    "id": 628,
+                    "id": 18461,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftExpression": {
                       "expression": {
-                        "id": 625,
+                        "id": 18458,
                         "name": "position",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 620,
-                        "src": "2630:8:4",
+                        "referencedDeclaration": 18453,
+                        "src": "2581:8:10",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Account_$609_storage_ptr",
+                          "typeIdentifier": "t_struct$_Account_$18442_storage_ptr",
                           "typeString": "struct StakingMath.Account storage pointer"
                         }
                       },
-                      "id": 626,
+                      "id": 18459,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": false,
-                      "memberLocation": "2639:10:4",
+                      "memberLocation": "2590:10:10",
                       "memberName": "lastUpdate",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 608,
-                      "src": "2630:19:4",
+                      "referencedDeclaration": 18441,
+                      "src": "2581:19:10",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint48",
                         "typeString": "uint48"
@@ -487,73 +487,73 @@
                     "operator": "==",
                     "rightExpression": {
                       "hexValue": "30",
-                      "id": 627,
+                      "id": 18460,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "2653:1:4",
+                      "src": "2604:1:10",
                       "typeDescriptions": {
                         "typeIdentifier": "t_rational_0_by_1",
                         "typeString": "int_const 0"
                       },
                       "value": "0"
                     },
-                    "src": "2630:24:4",
+                    "src": "2581:24:10",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "id": 632,
+                  "id": 18465,
                   "nodeType": "IfStatement",
-                  "src": "2626:65:4",
+                  "src": "2577:63:10",
                   "trueBody": {
-                    "id": 631,
+                    "id": 18464,
                     "nodeType": "Block",
-                    "src": "2656:35:4",
+                    "src": "2607:33:10",
                     "statements": [
                       {
                         "expression": {
                           "hexValue": "30",
-                          "id": 629,
+                          "id": 18462,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
                           "kind": "number",
                           "lValueRequested": false,
                           "nodeType": "Literal",
-                          "src": "2678:1:4",
+                          "src": "2628:1:10",
                           "typeDescriptions": {
                             "typeIdentifier": "t_rational_0_by_1",
                             "typeString": "int_const 0"
                           },
                           "value": "0"
                         },
-                        "functionReturnParameters": 624,
-                        "id": 630,
+                        "functionReturnParameters": 18457,
+                        "id": 18463,
                         "nodeType": "Return",
-                        "src": "2671:8:4"
+                        "src": "2621:8:10"
                       }
                     ]
                   }
                 },
                 {
                   "assignments": [
-                    634
+                    18467
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 634,
+                      "id": 18467,
                       "mutability": "mutable",
                       "name": "PositionAgainstNegative",
-                      "nameLocation": "2709:23:4",
+                      "nameLocation": "2657:23:10",
                       "nodeType": "VariableDeclaration",
-                      "scope": 670,
-                      "src": "2701:31:4",
+                      "scope": 18503,
+                      "src": "2649:31:10",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -561,10 +561,10 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 633,
+                        "id": 18466,
                         "name": "uint256",
                         "nodeType": "ElementaryTypeName",
-                        "src": "2701:7:4",
+                        "src": "2649:7:10",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -573,7 +573,7 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 645,
+                  "id": 18478,
                   "initialValue": {
                     "components": [
                       {
@@ -581,34 +581,34 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 643,
+                        "id": 18476,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "leftExpression": {
                           "expression": {
-                            "id": 635,
+                            "id": 18468,
                             "name": "deltaRewardSummations",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 617,
-                            "src": "2736:21:4",
+                            "referencedDeclaration": 18450,
+                            "src": "2696:21:10",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_RewardSummations_$598_memory_ptr",
+                              "typeIdentifier": "t_struct$_RewardSummations_$18431_memory_ptr",
                               "typeString": "struct StakingMath.RewardSummations memory"
                             }
                           },
-                          "id": 636,
+                          "id": 18469,
                           "isConstant": false,
                           "isLValue": true,
                           "isPure": false,
                           "lValueRequested": false,
-                          "memberLocation": "2758:13:4",
+                          "memberLocation": "2718:13:10",
                           "memberName": "idealPosition",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 595,
-                          "src": "2736:35:4",
+                          "referencedDeclaration": 18428,
+                          "src": "2696:35:10",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -623,34 +623,34 @@
                                 "typeIdentifier": "t_uint256",
                                 "typeString": "uint256"
                               },
-                              "id": 641,
+                              "id": 18474,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
                               "lValueRequested": false,
                               "leftExpression": {
                                 "expression": {
-                                  "id": 637,
+                                  "id": 18470,
                                   "name": "deltaRewardSummations",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 617,
-                                  "src": "2775:21:4",
+                                  "referencedDeclaration": 18450,
+                                  "src": "2735:21:10",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_struct$_RewardSummations_$598_memory_ptr",
+                                    "typeIdentifier": "t_struct$_RewardSummations_$18431_memory_ptr",
                                     "typeString": "struct StakingMath.RewardSummations memory"
                                   }
                                 },
-                                "id": 638,
+                                "id": 18471,
                                 "isConstant": false,
                                 "isLValue": true,
                                 "isPure": false,
                                 "lValueRequested": false,
-                                "memberLocation": "2797:14:4",
+                                "memberLocation": "2757:14:10",
                                 "memberName": "rewardPerValue",
                                 "nodeType": "MemberAccess",
-                                "referencedDeclaration": 597,
-                                "src": "2775:36:4",
+                                "referencedDeclaration": 18430,
+                                "src": "2735:36:10",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint256",
                                   "typeString": "uint256"
@@ -660,89 +660,89 @@
                               "operator": "*",
                               "rightExpression": {
                                 "expression": {
-                                  "id": 639,
+                                  "id": 18472,
                                   "name": "position",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 620,
-                                  "src": "2814:8:4",
+                                  "referencedDeclaration": 18453,
+                                  "src": "2774:8:10",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_struct$_Account_$609_storage_ptr",
+                                    "typeIdentifier": "t_struct$_Account_$18442_storage_ptr",
                                     "typeString": "struct StakingMath.Account storage pointer"
                                   }
                                 },
-                                "id": 640,
+                                "id": 18473,
                                 "isConstant": false,
                                 "isLValue": true,
                                 "isPure": false,
                                 "lValueRequested": false,
-                                "memberLocation": "2823:10:4",
+                                "memberLocation": "2783:10:10",
                                 "memberName": "lastUpdate",
                                 "nodeType": "MemberAccess",
-                                "referencedDeclaration": 608,
-                                "src": "2814:19:4",
+                                "referencedDeclaration": 18441,
+                                "src": "2774:19:10",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint48",
                                   "typeString": "uint48"
                                 }
                               },
-                              "src": "2775:58:4",
+                              "src": "2735:58:10",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
                                 "typeString": "uint256"
                               }
                             }
                           ],
-                          "id": 642,
+                          "id": 18475,
                           "isConstant": false,
                           "isInlineArray": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "nodeType": "TupleExpression",
-                          "src": "2774:60:4",
+                          "src": "2734:60:10",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "src": "2736:98:4",
+                        "src": "2696:98:10",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         }
                       }
                     ],
-                    "id": 644,
+                    "id": 18477,
                     "isConstant": false,
                     "isInlineArray": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "TupleExpression",
-                    "src": "2735:100:4",
+                    "src": "2695:100:10",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "2701:134:4"
+                  "src": "2649:146:10"
                 },
                 {
                   "assignments": [
-                    647
+                    18480
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 647,
+                      "id": 18480,
                       "mutability": "mutable",
                       "name": "Earned",
-                      "nameLocation": "2854:6:4",
+                      "nameLocation": "2813:6:10",
                       "nodeType": "VariableDeclaration",
-                      "scope": 670,
-                      "src": "2846:14:4",
+                      "scope": 18503,
+                      "src": "2805:14:10",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -750,10 +750,10 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 646,
+                        "id": 18479,
                         "name": "uint256",
                         "nodeType": "ElementaryTypeName",
-                        "src": "2846:7:4",
+                        "src": "2805:7:10",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -762,13 +762,13 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 661,
+                  "id": 18494,
                   "initialValue": {
                     "commonType": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 660,
+                    "id": 18493,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -780,18 +780,18 @@
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           },
-                          "id": 652,
+                          "id": 18485,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "leftExpression": {
-                            "id": 648,
+                            "id": 18481,
                             "name": "PositionAgainstNegative",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 634,
-                            "src": "2864:23:4",
+                            "referencedDeclaration": 18467,
+                            "src": "2823:23:10",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -802,62 +802,62 @@
                           "rightExpression": {
                             "expression": {
                               "expression": {
-                                "id": 649,
+                                "id": 18482,
                                 "name": "position",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 620,
-                                "src": "2890:8:4",
+                                "referencedDeclaration": 18453,
+                                "src": "2849:8:10",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_struct$_Account_$609_storage_ptr",
+                                  "typeIdentifier": "t_struct$_Account_$18442_storage_ptr",
                                   "typeString": "struct StakingMath.Account storage pointer"
                                 }
                               },
-                              "id": 650,
+                              "id": 18483,
                               "isConstant": false,
                               "isLValue": true,
                               "isPure": false,
                               "lValueRequested": false,
-                              "memberLocation": "2899:14:4",
+                              "memberLocation": "2858:14:10",
                               "memberName": "valueVariables",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 601,
-                              "src": "2890:23:4",
+                              "referencedDeclaration": 18434,
+                              "src": "2849:23:10",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_ValueVariables_$593_storage",
+                                "typeIdentifier": "t_struct$_ValueVariables_$18426_storage",
                                 "typeString": "struct StakingMath.ValueVariables storage ref"
                               }
                             },
-                            "id": 651,
+                            "id": 18484,
                             "isConstant": false,
                             "isLValue": true,
                             "isPure": false,
                             "lValueRequested": false,
-                            "memberLocation": "2914:7:4",
+                            "memberLocation": "2873:7:10",
                             "memberName": "balance",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 590,
-                            "src": "2890:31:4",
+                            "referencedDeclaration": 18423,
+                            "src": "2849:31:10",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint96",
                               "typeString": "uint96"
                             }
                           },
-                          "src": "2864:57:4",
+                          "src": "2823:57:10",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         }
                       ],
-                      "id": 653,
+                      "id": 18486,
                       "isConstant": false,
                       "isInlineArray": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "TupleExpression",
-                      "src": "2863:59:4",
+                      "src": "2822:59:10",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -872,34 +872,34 @@
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           },
-                          "id": 658,
+                          "id": 18491,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "leftExpression": {
                             "expression": {
-                              "id": 654,
+                              "id": 18487,
                               "name": "deltaRewardSummations",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 617,
-                              "src": "2926:21:4",
+                              "referencedDeclaration": 18450,
+                              "src": "2897:21:10",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_RewardSummations_$598_memory_ptr",
+                                "typeIdentifier": "t_struct$_RewardSummations_$18431_memory_ptr",
                                 "typeString": "struct StakingMath.RewardSummations memory"
                               }
                             },
-                            "id": 655,
+                            "id": 18488,
                             "isConstant": false,
                             "isLValue": true,
                             "isPure": false,
                             "lValueRequested": false,
-                            "memberLocation": "2948:14:4",
+                            "memberLocation": "2919:14:10",
                             "memberName": "rewardPerValue",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 597,
-                            "src": "2926:36:4",
+                            "referencedDeclaration": 18430,
+                            "src": "2897:36:10",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -909,75 +909,75 @@
                           "operator": "*",
                           "rightExpression": {
                             "expression": {
-                              "id": 656,
+                              "id": 18489,
                               "name": "position",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 620,
-                              "src": "2965:8:4",
+                              "referencedDeclaration": 18453,
+                              "src": "2936:8:10",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Account_$609_storage_ptr",
+                                "typeIdentifier": "t_struct$_Account_$18442_storage_ptr",
                                 "typeString": "struct StakingMath.Account storage pointer"
                               }
                             },
-                            "id": 657,
+                            "id": 18490,
                             "isConstant": false,
                             "isLValue": true,
                             "isPure": false,
                             "lValueRequested": false,
-                            "memberLocation": "2974:14:4",
+                            "memberLocation": "2945:14:10",
                             "memberName": "previousValues",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 606,
-                            "src": "2965:23:4",
+                            "referencedDeclaration": 18439,
+                            "src": "2936:23:10",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint160",
                               "typeString": "uint160"
                             }
                           },
-                          "src": "2926:62:4",
+                          "src": "2897:62:10",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         }
                       ],
-                      "id": 659,
+                      "id": 18492,
                       "isConstant": false,
                       "isInlineArray": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "TupleExpression",
-                      "src": "2925:64:4",
+                      "src": "2896:64:10",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "2863:126:4",
+                    "src": "2822:138:10",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "2846:143:4"
+                  "src": "2805:155:10"
                 },
                 {
                   "assignments": [
-                    663
+                    18496
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 663,
+                      "id": 18496,
                       "mutability": "mutable",
                       "name": "ScaledEarned",
-                      "nameLocation": "3008:12:4",
+                      "nameLocation": "2978:12:10",
                       "nodeType": "VariableDeclaration",
-                      "scope": 670,
-                      "src": "3000:20:4",
+                      "scope": 18503,
+                      "src": "2970:20:10",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -985,10 +985,10 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 662,
+                        "id": 18495,
                         "name": "uint256",
                         "nodeType": "ElementaryTypeName",
-                        "src": "3000:7:4",
+                        "src": "2970:7:10",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -997,24 +997,24 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 667,
+                  "id": 18500,
                   "initialValue": {
                     "commonType": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 666,
+                    "id": 18499,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftExpression": {
-                      "id": 664,
+                      "id": 18497,
                       "name": "Earned",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 647,
-                      "src": "3023:6:4",
+                      "referencedDeclaration": 18480,
+                      "src": "2993:6:10",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -1023,43 +1023,43 @@
                     "nodeType": "BinaryOperation",
                     "operator": "/",
                     "rightExpression": {
-                      "id": 665,
+                      "id": 18498,
                       "name": "PRECISION",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 614,
-                      "src": "3032:9:4",
+                      "referencedDeclaration": 18447,
+                      "src": "3002:9:10",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "3023:18:4",
+                    "src": "2993:18:10",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "3000:41:4"
+                  "src": "2970:41:10"
                 },
                 {
                   "expression": {
-                    "id": 668,
+                    "id": 18501,
                     "name": "ScaledEarned",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 663,
-                    "src": "3061:12:4",
+                    "referencedDeclaration": 18496,
+                    "src": "3029:12:10",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 624,
-                  "id": 669,
+                  "functionReturnParameters": 18457,
+                  "id": 18502,
                   "nodeType": "Return",
-                  "src": "3054:19:4"
+                  "src": "3022:19:10"
                 }
               ]
             },
@@ -1067,43 +1067,43 @@
             "kind": "function",
             "modifiers": [],
             "name": "_earned",
-            "nameLocation": "2470:7:4",
+            "nameLocation": "2426:7:10",
             "parameters": {
-              "id": 621,
+              "id": 18454,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 617,
+                  "id": 18450,
                   "mutability": "mutable",
                   "name": "deltaRewardSummations",
-                  "nameLocation": "2502:21:4",
+                  "nameLocation": "2458:21:10",
                   "nodeType": "VariableDeclaration",
-                  "scope": 671,
-                  "src": "2478:45:4",
+                  "scope": 18504,
+                  "src": "2434:45:10",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_RewardSummations_$598_memory_ptr",
+                    "typeIdentifier": "t_struct$_RewardSummations_$18431_memory_ptr",
                     "typeString": "struct StakingMath.RewardSummations"
                   },
                   "typeName": {
-                    "id": 616,
+                    "id": 18449,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 615,
+                      "id": 18448,
                       "name": "RewardSummations",
                       "nameLocations": [
-                        "2478:16:4"
+                        "2434:16:10"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 598,
-                      "src": "2478:16:4"
+                      "referencedDeclaration": 18431,
+                      "src": "2434:16:10"
                     },
-                    "referencedDeclaration": 598,
-                    "src": "2478:16:4",
+                    "referencedDeclaration": 18431,
+                    "src": "2434:16:10",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_RewardSummations_$598_storage_ptr",
+                      "typeIdentifier": "t_struct$_RewardSummations_$18431_storage_ptr",
                       "typeString": "struct StakingMath.RewardSummations"
                     }
                   },
@@ -1111,57 +1111,57 @@
                 },
                 {
                   "constant": false,
-                  "id": 620,
+                  "id": 18453,
                   "mutability": "mutable",
                   "name": "position",
-                  "nameLocation": "2541:8:4",
+                  "nameLocation": "2497:8:10",
                   "nodeType": "VariableDeclaration",
-                  "scope": 671,
-                  "src": "2525:24:4",
+                  "scope": 18504,
+                  "src": "2481:24:10",
                   "stateVariable": false,
                   "storageLocation": "storage",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_Account_$609_storage_ptr",
+                    "typeIdentifier": "t_struct$_Account_$18442_storage_ptr",
                     "typeString": "struct StakingMath.Account"
                   },
                   "typeName": {
-                    "id": 619,
+                    "id": 18452,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 618,
+                      "id": 18451,
                       "name": "Account",
                       "nameLocations": [
-                        "2525:7:4"
+                        "2481:7:10"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 609,
-                      "src": "2525:7:4"
+                      "referencedDeclaration": 18442,
+                      "src": "2481:7:10"
                     },
-                    "referencedDeclaration": 609,
-                    "src": "2525:7:4",
+                    "referencedDeclaration": 18442,
+                    "src": "2481:7:10",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_Account_$609_storage_ptr",
+                      "typeIdentifier": "t_struct$_Account_$18442_storage_ptr",
                       "typeString": "struct StakingMath.Account"
                     }
                   },
                   "visibility": "internal"
                 }
               ],
-              "src": "2477:73:4"
+              "src": "2433:73:10"
             },
             "returnParameters": {
-              "id": 624,
+              "id": 18457,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 623,
+                  "id": 18456,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 671,
-                  "src": "2601:7:4",
+                  "scope": 18504,
+                  "src": "2554:7:10",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1169,10 +1169,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 622,
+                    "id": 18455,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2601:7:4",
+                    "src": "2554:7:10",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1181,21 +1181,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "2600:9:4"
+              "src": "2553:9:10"
             },
-            "scope": 708,
+            "scope": 18541,
             "stateMutability": "view",
             "virtual": false,
             "visibility": "internal"
           },
           {
-            "id": 689,
+            "id": 18522,
             "nodeType": "FunctionDefinition",
-            "src": "3089:188:4",
+            "src": "3054:186:10",
             "body": {
-              "id": 688,
+              "id": 18521,
               "nodeType": "Block",
-              "src": "3178:99:4",
+              "src": "3143:97:10",
               "statements": [
                 {
                   "expression": {
@@ -1203,7 +1203,7 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 686,
+                    "id": 18519,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1213,33 +1213,33 @@
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       },
-                      "id": 683,
+                      "id": 18516,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "leftExpression": {
                         "expression": {
-                          "id": 679,
+                          "id": 18512,
                           "name": "block",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": -4,
-                          "src": "3196:5:4",
+                          "src": "3160:5:10",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_block",
                             "typeString": "block"
                           }
                         },
-                        "id": 680,
+                        "id": 18513,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
-                        "memberLocation": "3202:9:4",
+                        "memberLocation": "3166:9:10",
                         "memberName": "timestamp",
                         "nodeType": "MemberAccess",
-                        "src": "3196:15:4",
+                        "src": "3160:15:10",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -1249,33 +1249,33 @@
                       "operator": "*",
                       "rightExpression": {
                         "expression": {
-                          "id": 681,
+                          "id": 18514,
                           "name": "valueVariables",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 674,
-                          "src": "3214:14:4",
+                          "referencedDeclaration": 18507,
+                          "src": "3178:14:10",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_ValueVariables_$593_memory_ptr",
+                            "typeIdentifier": "t_struct$_ValueVariables_$18426_memory_ptr",
                             "typeString": "struct StakingMath.ValueVariables memory"
                           }
                         },
-                        "id": 682,
+                        "id": 18515,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
-                        "memberLocation": "3229:7:4",
+                        "memberLocation": "3193:7:10",
                         "memberName": "balance",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 590,
-                        "src": "3214:22:4",
+                        "referencedDeclaration": 18423,
+                        "src": "3178:22:10",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint96",
                           "typeString": "uint96"
                         }
                       },
-                      "src": "3196:40:4",
+                      "src": "3160:40:10",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -1285,42 +1285,42 @@
                     "operator": "-",
                     "rightExpression": {
                       "expression": {
-                        "id": 684,
+                        "id": 18517,
                         "name": "valueVariables",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 674,
-                        "src": "3239:14:4",
+                        "referencedDeclaration": 18507,
+                        "src": "3203:14:10",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_ValueVariables_$593_memory_ptr",
+                          "typeIdentifier": "t_struct$_ValueVariables_$18426_memory_ptr",
                           "typeString": "struct StakingMath.ValueVariables memory"
                         }
                       },
-                      "id": 685,
+                      "id": 18518,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": false,
-                      "memberLocation": "3254:15:4",
+                      "memberLocation": "3218:15:10",
                       "memberName": "sumOfEntryTimes",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 592,
-                      "src": "3239:30:4",
+                      "referencedDeclaration": 18425,
+                      "src": "3203:30:10",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint160",
                         "typeString": "uint160"
                       }
                     },
-                    "src": "3196:73:4",
+                    "src": "3160:73:10",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 678,
-                  "id": 687,
+                  "functionReturnParameters": 18511,
+                  "id": 18520,
                   "nodeType": "Return",
-                  "src": "3189:80:4"
+                  "src": "3153:80:10"
                 }
               ]
             },
@@ -1328,64 +1328,64 @@
             "kind": "function",
             "modifiers": [],
             "name": "_getValue",
-            "nameLocation": "3098:9:4",
+            "nameLocation": "3063:9:10",
             "parameters": {
-              "id": 675,
+              "id": 18508,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 674,
+                  "id": 18507,
                   "mutability": "mutable",
                   "name": "valueVariables",
-                  "nameLocation": "3130:14:4",
+                  "nameLocation": "3095:14:10",
                   "nodeType": "VariableDeclaration",
-                  "scope": 689,
-                  "src": "3108:36:4",
+                  "scope": 18522,
+                  "src": "3073:36:10",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_ValueVariables_$593_memory_ptr",
+                    "typeIdentifier": "t_struct$_ValueVariables_$18426_memory_ptr",
                     "typeString": "struct StakingMath.ValueVariables"
                   },
                   "typeName": {
-                    "id": 673,
+                    "id": 18506,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 672,
+                      "id": 18505,
                       "name": "ValueVariables",
                       "nameLocations": [
-                        "3108:14:4"
+                        "3073:14:10"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 593,
-                      "src": "3108:14:4"
+                      "referencedDeclaration": 18426,
+                      "src": "3073:14:10"
                     },
-                    "referencedDeclaration": 593,
-                    "src": "3108:14:4",
+                    "referencedDeclaration": 18426,
+                    "src": "3073:14:10",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_ValueVariables_$593_storage_ptr",
+                      "typeIdentifier": "t_struct$_ValueVariables_$18426_storage_ptr",
                       "typeString": "struct StakingMath.ValueVariables"
                     }
                   },
                   "visibility": "internal"
                 }
               ],
-              "src": "3107:38:4"
+              "src": "3072:38:10"
             },
             "returnParameters": {
-              "id": 678,
+              "id": 18511,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 677,
+                  "id": 18510,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 689,
-                  "src": "3169:7:4",
+                  "scope": 18522,
+                  "src": "3134:7:10",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1393,10 +1393,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 676,
+                    "id": 18509,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3169:7:4",
+                    "src": "3134:7:10",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1405,21 +1405,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "3168:9:4"
+              "src": "3133:9:10"
             },
-            "scope": 708,
+            "scope": 18541,
             "stateMutability": "view",
             "virtual": false,
             "visibility": "internal"
           },
           {
-            "id": 707,
+            "id": 18540,
             "nodeType": "FunctionDefinition",
-            "src": "3285:163:4",
+            "src": "3246:161:10",
             "body": {
-              "id": 706,
+              "id": 18539,
               "nodeType": "Block",
-              "src": "3377:71:4",
+              "src": "3338:69:10",
               "statements": [
                 {
                   "expression": {
@@ -1428,18 +1428,18 @@
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       },
-                      "id": 701,
+                      "id": 18534,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "leftExpression": {
-                        "id": 698,
+                        "id": 18531,
                         "name": "periodEnd",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 691,
-                        "src": "3395:9:4",
+                        "referencedDeclaration": 18524,
+                        "src": "3355:9:10",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -1449,66 +1449,66 @@
                       "operator": "<",
                       "rightExpression": {
                         "expression": {
-                          "id": 699,
+                          "id": 18532,
                           "name": "block",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": -4,
-                          "src": "3407:5:4",
+                          "src": "3367:5:10",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_block",
                             "typeString": "block"
                           }
                         },
-                        "id": 700,
+                        "id": 18533,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
-                        "memberLocation": "3413:9:4",
+                        "memberLocation": "3373:9:10",
                         "memberName": "timestamp",
                         "nodeType": "MemberAccess",
-                        "src": "3407:15:4",
+                        "src": "3367:15:10",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         }
                       },
-                      "src": "3395:27:4",
+                      "src": "3355:27:10",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
                       }
                     },
                     "falseExpression": {
-                      "id": 703,
+                      "id": 18536,
                       "name": "_rewardRate",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 693,
-                      "src": "3429:11:4",
+                      "referencedDeclaration": 18526,
+                      "src": "3389:11:10",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "id": 704,
+                    "id": 18537,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "Conditional",
-                    "src": "3395:45:4",
+                    "src": "3355:45:10",
                     "trueExpression": {
                       "hexValue": "30",
-                      "id": 702,
+                      "id": 18535,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "3425:1:4",
+                      "src": "3385:1:10",
                       "typeDescriptions": {
                         "typeIdentifier": "t_rational_0_by_1",
                         "typeString": "int_const 0"
@@ -1520,10 +1520,10 @@
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 697,
-                  "id": 705,
+                  "functionReturnParameters": 18530,
+                  "id": 18538,
                   "nodeType": "Return",
-                  "src": "3388:52:4"
+                  "src": "3348:52:10"
                 }
               ]
             },
@@ -1531,20 +1531,20 @@
             "kind": "function",
             "modifiers": [],
             "name": "rewardRate",
-            "nameLocation": "3294:10:4",
+            "nameLocation": "3255:10:10",
             "parameters": {
-              "id": 694,
+              "id": 18527,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 691,
+                  "id": 18524,
                   "mutability": "mutable",
                   "name": "periodEnd",
-                  "nameLocation": "3313:9:4",
+                  "nameLocation": "3274:9:10",
                   "nodeType": "VariableDeclaration",
-                  "scope": 707,
-                  "src": "3305:17:4",
+                  "scope": 18540,
+                  "src": "3266:17:10",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1552,10 +1552,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 690,
+                    "id": 18523,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3305:7:4",
+                    "src": "3266:7:10",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1565,13 +1565,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 693,
+                  "id": 18526,
                   "mutability": "mutable",
                   "name": "_rewardRate",
-                  "nameLocation": "3332:11:4",
+                  "nameLocation": "3293:11:10",
                   "nodeType": "VariableDeclaration",
-                  "scope": 707,
-                  "src": "3324:19:4",
+                  "scope": 18540,
+                  "src": "3285:19:10",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1579,10 +1579,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 692,
+                    "id": 18525,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3324:7:4",
+                    "src": "3285:7:10",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1591,21 +1591,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "3304:40:4"
+              "src": "3265:40:10"
             },
             "returnParameters": {
-              "id": 697,
+              "id": 18530,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 696,
+                  "id": 18529,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 707,
-                  "src": "3368:7:4",
+                  "scope": 18540,
+                  "src": "3329:7:10",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1613,10 +1613,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 695,
+                    "id": 18528,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3368:7:4",
+                    "src": "3329:7:10",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1625,9 +1625,9 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "3367:9:4"
+              "src": "3328:9:10"
             },
-            "scope": 708,
+            "scope": 18541,
             "stateMutability": "view",
             "virtual": false,
             "visibility": "internal"
@@ -1640,14 +1640,14 @@
         "contractKind": "library",
         "fullyImplemented": true,
         "linearizedBaseContracts": [
-          708
+          18541
         ],
         "name": "StakingMath",
-        "nameLocation": "36:11:4",
-        "scope": 709,
+        "nameLocation": "34:11:10",
+        "scope": 18542,
         "usedErrors": []
       }
     ]
   },
-  "id": 4
+  "id": 10
 }

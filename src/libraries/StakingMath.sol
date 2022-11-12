@@ -40,8 +40,7 @@ library StakingMath {
         uint48 lastUpdate;
     }
 
-    uint256 private constant PRECISION = 2**128;
-
+    uint256 private constant PRECISION = 2 ** 128;
 
     function _earned(RewardSummations memory deltaRewardSummations, Account storage position)
         internal
@@ -51,8 +50,10 @@ library StakingMath {
         if (position.lastUpdate == 0) {
             return 0;
         }
-        uint256 PositionAgainstNegative = (deltaRewardSummations.idealPosition - (deltaRewardSummations.rewardPerValue * position.lastUpdate));
-        uint256 Earned = (PositionAgainstNegative * position.valueVariables.balance) + (deltaRewardSummations.rewardPerValue * position.previousValues);
+        uint256 PositionAgainstNegative =
+            (deltaRewardSummations.idealPosition - (deltaRewardSummations.rewardPerValue * position.lastUpdate));
+        uint256 Earned = (PositionAgainstNegative * position.valueVariables.balance)
+            + (deltaRewardSummations.rewardPerValue * position.previousValues);
         uint256 ScaledEarned = Earned / PRECISION;
 
         return ScaledEarned;

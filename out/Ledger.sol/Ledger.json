@@ -91,6 +91,19 @@
     },
     {
       "inputs": [],
+      "name": "lastUpdate",
+      "outputs": [
+        {
+          "internalType": "uint40",
+          "name": "",
+          "type": "uint40"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
       "name": "periodFinish",
       "outputs": [
         {
@@ -140,24 +153,25 @@
     }
   ],
   "bytecode": {
-    "object": "0x608060405234801561001057600080fd5b506102b1806100206000396000f3fe608060405234801561001057600080fd5b50600436106100625760003560e01c80631e83c7941461006757806368fd25cd14610149578063aaf5eb681461017a578063df3e1aa414610193578063ebe2b12b146101df578063f5c455001461020d575b600080fd5b6100ef610075366004610230565b60006020818152928152604080822084529181528190208151808301835281546001600160601b0381168252600160601b90046001600160a01b03908116828601528351808501909452600183015484526002830154948401949094526003909101549092811690600160a01b900465ffffffffffff1684565b6040805185516001600160601b031681526020958601516001600160a01b0390811687830152855192820192909252949093015160608501529116608083015265ffffffffffff1660a082015260c0015b60405180910390f35b60045461015f9069ffffffffffffffffffff1681565b60405169ffffffffffffffffffff9091168152602001610140565b610185600160801b81565b604051908152602001610140565b6001546101b8906001600160601b03811690600160601b90046001600160a01b031682565b604080516001600160601b0390931683526001600160a01b03909116602083015201610140565b6004546101f790600160501b900464ffffffffff1681565b60405164ffffffffff9091168152602001610140565b60025460035461021b919082565b60408051928352602083019190915201610140565b6000806040838503121561024357600080fd5b82356001600160a01b038116811461025a57600080fd5b9150602083013560ff8116811461027057600080fd5b80915050925092905056fea26469706673582212202b84a840b97075af5242242bb36c7516660372df2fbce97e30ff11a1ac46d80964736f6c63430008110033",
-    "sourceMap": "175:3071:0:-:0;;;;;;;;;;;;;;;;;;;",
+    "object": "0x608060405234801561001057600080fd5b506102e4806100206000396000f3fe608060405234801561001057600080fd5b506004361061007d5760003560e01c8063c04637111161005b578063c0463711146101ae578063df3e1aa4146101dc578063ebe2b12b14610228578063f5c455001461024057600080fd5b80631e83c7941461008257806368fd25cd14610164578063aaf5eb6814610195575b600080fd5b61010a610090366004610263565b60006020818152928152604080822084529181528190208151808301835281546001600160601b0381168252600160601b90046001600160a01b03908116828601528351808501909452600183015484526002830154948401949094526003909101549092811690600160a01b900465ffffffffffff1684565b6040805185516001600160601b031681526020958601516001600160a01b0390811687830152855192820192909252949093015160608501529116608083015265ffffffffffff1660a082015260c0015b60405180910390f35b60045461017a9069ffffffffffffffffffff1681565b60405169ffffffffffffffffffff909116815260200161015b565b6101a0600160801b81565b60405190815260200161015b565b6004546101c690600160781b900464ffffffffff1681565b60405164ffffffffff909116815260200161015b565b600154610201906001600160601b03811690600160601b90046001600160a01b031682565b604080516001600160601b0390931683526001600160a01b0390911660208301520161015b565b6004546101c690600160501b900464ffffffffff1681565b60025460035461024e919082565b6040805192835260208301919091520161015b565b6000806040838503121561027657600080fd5b82356001600160a01b038116811461028d57600080fd5b9150602083013560ff811681146102a357600080fd5b80915050925092905056fea26469706673582212207805b2c77cd362546fdf757286891590c946052aff57ed54fb07d3d7898f05b564736f6c63430008110033",
+    "sourceMap": "168:3102:6:-:0;;;;;;;;;;;;;;;;;;;",
     "linkReferences": {}
   },
   "deployedBytecode": {
-    "object": "0x608060405234801561001057600080fd5b50600436106100625760003560e01c80631e83c7941461006757806368fd25cd14610149578063aaf5eb681461017a578063df3e1aa414610193578063ebe2b12b146101df578063f5c455001461020d575b600080fd5b6100ef610075366004610230565b60006020818152928152604080822084529181528190208151808301835281546001600160601b0381168252600160601b90046001600160a01b03908116828601528351808501909452600183015484526002830154948401949094526003909101549092811690600160a01b900465ffffffffffff1684565b6040805185516001600160601b031681526020958601516001600160a01b0390811687830152855192820192909252949093015160608501529116608083015265ffffffffffff1660a082015260c0015b60405180910390f35b60045461015f9069ffffffffffffffffffff1681565b60405169ffffffffffffffffffff9091168152602001610140565b610185600160801b81565b604051908152602001610140565b6001546101b8906001600160601b03811690600160601b90046001600160a01b031682565b604080516001600160601b0390931683526001600160a01b03909116602083015201610140565b6004546101f790600160501b900464ffffffffff1681565b60405164ffffffffff9091168152602001610140565b60025460035461021b919082565b60408051928352602083019190915201610140565b6000806040838503121561024357600080fd5b82356001600160a01b038116811461025a57600080fd5b9150602083013560ff8116811461027057600080fd5b80915050925092905056fea26469706673582212202b84a840b97075af5242242bb36c7516660372df2fbce97e30ff11a1ac46d80964736f6c63430008110033",
-    "sourceMap": "175:3071:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2633:61;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;2633:61:0;;;;-1:-1:-1;;;2633:61:0;;-1:-1:-1;;;;;2633:61:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;2633:61:0;;;;;;;;;;843:13:5;;-1:-1:-1;;;;;839:46:5;821:65;;933:4;921:17;;;915:24;-1:-1:-1;;;;;1015:21:5;;;993:20;;;986:51;1073:13;;1053:18;;;1046:41;;;;1129:17;;;;1123:24;1118:2;1103:18;;1096:52;1185:15;;1179:3;1164:19;;1157:44;1250:14;1238:27;966:3;1217:19;;1210:56;808:3;793:19;2633:61:0;;;;;;;;3083:25;;;;;;;;;;;;1451:22:5;1439:35;;;1421:54;;1409:2;1394:18;3083:25:0;1277:204:5;2955:42:0;;-1:-1:-1;;;2955:42:0;;;;;1632:25:5;;;1620:2;1605:18;2955:42:0;1486:177:5;2779:41:0;;;;;-1:-1:-1;;;;;2779:41:0;;;-1:-1:-1;;;2779:41:0;;-1:-1:-1;;;;;2779:41:0;;;;;;;-1:-1:-1;;;;;1858:39:5;;;1840:58;;-1:-1:-1;;;;;1934:32:5;;;1929:2;1914:18;;1907:60;1813:18;2779:41:0;1668:305:5;3216:26:0;;;;;-1:-1:-1;;;3216:26:0;;;;;;;;;2152:12:5;2140:25;;;2122:44;;2110:2;2095:18;3216:26:0;1978:194:5;2900:46:0;;;;;;;;;;;;;;2351:25:5;;;2407:2;2392:18;;2385:34;;;;2324:18;2900:46:0;2177:248:5;14:451;80:6;88;141:2;129:9;120:7;116:23;112:32;109:52;;;157:1;154;147:12;109:52;183:23;;-1:-1:-1;;;;;235:31:5;;225:42;;215:70;;281:1;278;271:12;215:70;304:5;-1:-1:-1;361:2:5;346:18;;333:32;409:4;396:18;;384:31;;374:59;;429:1;426;419:12;374:59;452:7;442:17;;;14:451;;;;;:::o",
+    "object": "0x608060405234801561001057600080fd5b506004361061007d5760003560e01c8063c04637111161005b578063c0463711146101ae578063df3e1aa4146101dc578063ebe2b12b14610228578063f5c455001461024057600080fd5b80631e83c7941461008257806368fd25cd14610164578063aaf5eb6814610195575b600080fd5b61010a610090366004610263565b60006020818152928152604080822084529181528190208151808301835281546001600160601b0381168252600160601b90046001600160a01b03908116828601528351808501909452600183015484526002830154948401949094526003909101549092811690600160a01b900465ffffffffffff1684565b6040805185516001600160601b031681526020958601516001600160a01b0390811687830152855192820192909252949093015160608501529116608083015265ffffffffffff1660a082015260c0015b60405180910390f35b60045461017a9069ffffffffffffffffffff1681565b60405169ffffffffffffffffffff909116815260200161015b565b6101a0600160801b81565b60405190815260200161015b565b6004546101c690600160781b900464ffffffffff1681565b60405164ffffffffff909116815260200161015b565b600154610201906001600160601b03811690600160601b90046001600160a01b031682565b604080516001600160601b0390931683526001600160a01b0390911660208301520161015b565b6004546101c690600160501b900464ffffffffff1681565b60025460035461024e919082565b6040805192835260208301919091520161015b565b6000806040838503121561027657600080fd5b82356001600160a01b038116811461028d57600080fd5b9150602083013560ff811681146102a357600080fd5b80915050925092905056fea26469706673582212207805b2c77cd362546fdf757286891590c946052aff57ed54fb07d3d7898f05b564736f6c63430008110033",
+    "sourceMap": "168:3102:6:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2591:61;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;2591:61:6;;;;-1:-1:-1;;;2591:61:6;;-1:-1:-1;;;;;2591:61:6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;2591:61:6;;;;;;;;;;857:13:11;;-1:-1:-1;;;;;853:46:11;835:65;;947:4;935:17;;;929:24;-1:-1:-1;;;;;1029:21:11;;;1007:20;;;1000:51;1087:13;;1067:18;;;1060:41;;;;1143:17;;;;1137:24;1132:2;1117:18;;1110:52;1199:15;;1193:3;1178:19;;1171:44;1264:14;1252:27;980:3;1231:19;;1224:56;822:3;807:19;2591:61:6;;;;;;;;3068:25;;;;;;;;;;;;1465:22:11;1453:35;;;1435:54;;1423:2;1408:18;3068:25:6;1291:204:11;2929:44:6;;-1:-1:-1;;;2929:44:6;;;;;1646:25:11;;;1634:2;1619:18;2929:44:6;1500:177:11;3243:24:6;;;;;-1:-1:-1;;;3243:24:6;;;;;;;;;1856:12:11;1844:25;;;1826:44;;1814:2;1799:18;3243:24:6;1682:194:11;2746:41:6;;;;;-1:-1:-1;;;;;2746:41:6;;;-1:-1:-1;;;2746:41:6;;-1:-1:-1;;;;;2746:41:6;;;;;;;-1:-1:-1;;;;;2071:39:11;;;2053:58;;-1:-1:-1;;;;;2147:32:11;;;2142:2;2127:18;;2120:60;2026:18;2746:41:6;1881:305:11;3210:26:6;;;;;-1:-1:-1;;;3210:26:6;;;;;;2876:46;;;;;;;;;;;;;;2365:25:11;;;2421:2;2406:18;;2399:34;;;;2338:18;2876:46:6;2191:248:11;14:451;80:6;88;141:2;129:9;120:7;116:23;112:32;109:52;;;157:1;154;147:12;109:52;183:23;;-1:-1:-1;;;;;235:31:11;;225:42;;215:70;;281:1;278;271:12;215:70;304:5;-1:-1:-1;361:2:11;346:18;;333:32;409:4;396:18;;384:31;;374:59;;429:1;426;419:12;374:59;452:7;442:17;;;14:451;;;;;:::o",
     "linkReferences": {}
   },
   "methodIdentifiers": {
     "PRECISION()": "aaf5eb68",
     "_rewardRate()": "68fd25cd",
     "accounts(address,uint8)": "1e83c794",
+    "lastUpdate()": "c0463711",
     "periodFinish()": "ebe2b12b",
     "rewardSummationsStored()": "f5c45500",
     "totalValueVariables()": "df3e1aa4"
   },
-  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"PRECISION\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"_rewardRate\",\"outputs\":[{\"internalType\":\"uint80\",\"name\":\"\",\"type\":\"uint80\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"},{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"}],\"name\":\"accounts\",\"outputs\":[{\"components\":[{\"internalType\":\"uint96\",\"name\":\"balance\",\"type\":\"uint96\"},{\"internalType\":\"uint160\",\"name\":\"sumOfEntryTimes\",\"type\":\"uint160\"}],\"internalType\":\"struct Ledger.ValueVariables\",\"name\":\"valueVariables\",\"type\":\"tuple\"},{\"components\":[{\"internalType\":\"uint256\",\"name\":\"idealPosition\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"rewardPerValue\",\"type\":\"uint256\"}],\"internalType\":\"struct Ledger.RewardSummations\",\"name\":\"rewardSummationsPaid\",\"type\":\"tuple\"},{\"internalType\":\"uint160\",\"name\":\"previousValues\",\"type\":\"uint160\"},{\"internalType\":\"uint48\",\"name\":\"lastUpdate\",\"type\":\"uint48\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"periodFinish\",\"outputs\":[{\"internalType\":\"uint40\",\"name\":\"\",\"type\":\"uint40\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"rewardSummationsStored\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"idealPosition\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"rewardPerValue\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"totalValueVariables\",\"outputs\":[{\"internalType\":\"uint96\",\"name\":\"balance\",\"type\":\"uint96\"},{\"internalType\":\"uint160\",\"name\":\"sumOfEntryTimes\",\"type\":\"uint160\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"_rewardRate()\":{\"notice\":\"The rewards given out per second during a reward period. \"},\"accounts(address,uint8)\":{\"notice\":\"The mapping of position identifiers to their properties. \"},\"periodFinish()\":{\"notice\":\"The timestamp when the current period will end or the latest period has ended. \"},\"rewardSummationsStored()\":{\"notice\":\"The variables that govern the reward distribution. \"},\"totalValueVariables()\":{\"notice\":\"The struct holding the totalStaked and sumOfEntryTimes. \"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/Ledger.sol\":\"Ledger\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"src/Ledger.sol\":{\"keccak256\":\"0xee4300041ff45c96a23425b8a29a72a0e48de2341d5e3e2c8ef31ea507749501\",\"urls\":[\"bzz-raw://302f14c803bc00bb84e0512b8c4e51b3f41a1cf35a53e462379b2f4c4a13cbd8\",\"dweb:/ipfs/QmXGB1XDLMpxdxJUWu1tJmtUm7LhZ1Jfa5aQukhZsQbM4N\"]},\"src/libraries/StakingMath.sol\":{\"keccak256\":\"0x910635b5689a63ca27dda66cc75380dde7b0fac552411574f63e6c5a8c8fc57e\",\"urls\":[\"bzz-raw://3a0606569ad041f4fb55e3fafc05d24ac7d116df92091f3ef25076a8502f96bd\",\"dweb:/ipfs/Qmao3ivK5wWTkuaPJiBnVzaR1xvpGqgG3Jr3gwatkP4RjL\"]}},\"version\":1}",
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"PRECISION\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"_rewardRate\",\"outputs\":[{\"internalType\":\"uint80\",\"name\":\"\",\"type\":\"uint80\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"},{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"}],\"name\":\"accounts\",\"outputs\":[{\"components\":[{\"internalType\":\"uint96\",\"name\":\"balance\",\"type\":\"uint96\"},{\"internalType\":\"uint160\",\"name\":\"sumOfEntryTimes\",\"type\":\"uint160\"}],\"internalType\":\"struct Ledger.ValueVariables\",\"name\":\"valueVariables\",\"type\":\"tuple\"},{\"components\":[{\"internalType\":\"uint256\",\"name\":\"idealPosition\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"rewardPerValue\",\"type\":\"uint256\"}],\"internalType\":\"struct Ledger.RewardSummations\",\"name\":\"rewardSummationsPaid\",\"type\":\"tuple\"},{\"internalType\":\"uint160\",\"name\":\"previousValues\",\"type\":\"uint160\"},{\"internalType\":\"uint48\",\"name\":\"lastUpdate\",\"type\":\"uint48\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"lastUpdate\",\"outputs\":[{\"internalType\":\"uint40\",\"name\":\"\",\"type\":\"uint40\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"periodFinish\",\"outputs\":[{\"internalType\":\"uint40\",\"name\":\"\",\"type\":\"uint40\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"rewardSummationsStored\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"idealPosition\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"rewardPerValue\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"totalValueVariables\",\"outputs\":[{\"internalType\":\"uint96\",\"name\":\"balance\",\"type\":\"uint96\"},{\"internalType\":\"uint160\",\"name\":\"sumOfEntryTimes\",\"type\":\"uint160\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"_rewardRate()\":{\"notice\":\"The rewards given out per second during a reward period.\"},\"accounts(address,uint8)\":{\"notice\":\"The mapping of position identifiers to their properties.\"},\"periodFinish()\":{\"notice\":\"The timestamp when the current period will end or the latest period has ended.\"},\"rewardSummationsStored()\":{\"notice\":\"The variables that govern the reward distribution.\"},\"totalValueVariables()\":{\"notice\":\"The struct holding the totalStaked and sumOfEntryTimes.\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/Ledger.sol\":\"Ledger\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"src/Ledger.sol\":{\"keccak256\":\"0xad7f5e3de3ed9c39719008d8f9057b1477dbb3ff2a14a76b6b410ab18969d698\",\"urls\":[\"bzz-raw://58df32e98d7d26ba6b5a3707d3de115cbd73bc9c942694337ca7c9d69491d7b6\",\"dweb:/ipfs/QmVgeeJRfRpz7x8JCtsxdVjDoS5SttPG2FGEyWh2L7eS6t\"]},\"src/libraries/StakingMath.sol\":{\"keccak256\":\"0x423983ce81b8b0282a85f661da67e61f129a6730ca941bef8562ab10e256c9fa\",\"urls\":[\"bzz-raw://d3f55ba746e2448eebdc8be463bd8e94c65f692aa528b65efa782f1130e93632\",\"dweb:/ipfs/QmSQonQ1Tt1LPREdWvowxznKdYdZCaKw45jWpcrCVfSoYC\"]}},\"version\":1}",
   "metadata": {
     "compiler": {
       "version": "0.8.17+commit.8df45f5f"
@@ -258,6 +272,19 @@
           "inputs": [],
           "stateMutability": "view",
           "type": "function",
+          "name": "lastUpdate",
+          "outputs": [
+            {
+              "internalType": "uint40",
+              "name": "",
+              "type": "uint40"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
           "name": "periodFinish",
           "outputs": [
             {
@@ -313,19 +340,19 @@
         "kind": "user",
         "methods": {
           "_rewardRate()": {
-            "notice": "The rewards given out per second during a reward period. "
+            "notice": "The rewards given out per second during a reward period."
           },
           "accounts(address,uint8)": {
-            "notice": "The mapping of position identifiers to their properties. "
+            "notice": "The mapping of position identifiers to their properties."
           },
           "periodFinish()": {
-            "notice": "The timestamp when the current period will end or the latest period has ended. "
+            "notice": "The timestamp when the current period will end or the latest period has ended."
           },
           "rewardSummationsStored()": {
-            "notice": "The variables that govern the reward distribution. "
+            "notice": "The variables that govern the reward distribution."
           },
           "totalValueVariables()": {
-            "notice": "The struct holding the totalStaked and sumOfEntryTimes. "
+            "notice": "The struct holding the totalStaked and sumOfEntryTimes."
           }
         },
         "version": 1
@@ -350,18 +377,18 @@
     },
     "sources": {
       "src/Ledger.sol": {
-        "keccak256": "0xee4300041ff45c96a23425b8a29a72a0e48de2341d5e3e2c8ef31ea507749501",
+        "keccak256": "0xad7f5e3de3ed9c39719008d8f9057b1477dbb3ff2a14a76b6b410ab18969d698",
         "urls": [
-          "bzz-raw://302f14c803bc00bb84e0512b8c4e51b3f41a1cf35a53e462379b2f4c4a13cbd8",
-          "dweb:/ipfs/QmXGB1XDLMpxdxJUWu1tJmtUm7LhZ1Jfa5aQukhZsQbM4N"
+          "bzz-raw://58df32e98d7d26ba6b5a3707d3de115cbd73bc9c942694337ca7c9d69491d7b6",
+          "dweb:/ipfs/QmVgeeJRfRpz7x8JCtsxdVjDoS5SttPG2FGEyWh2L7eS6t"
         ],
         "license": null
       },
       "src/libraries/StakingMath.sol": {
-        "keccak256": "0x910635b5689a63ca27dda66cc75380dde7b0fac552411574f63e6c5a8c8fc57e",
+        "keccak256": "0x423983ce81b8b0282a85f661da67e61f129a6730ca941bef8562ab10e256c9fa",
         "urls": [
-          "bzz-raw://3a0606569ad041f4fb55e3fafc05d24ac7d116df92091f3ef25076a8502f96bd",
-          "dweb:/ipfs/Qmao3ivK5wWTkuaPJiBnVzaR1xvpGqgG3Jr3gwatkP4RjL"
+          "bzz-raw://d3f55ba746e2448eebdc8be463bd8e94c65f692aa528b65efa782f1130e93632",
+          "dweb:/ipfs/QmSQonQ1Tt1LPREdWvowxznKdYdZCaKw45jWpcrCVfSoYC"
         ],
         "license": null
       }
@@ -370,22 +397,22 @@
   },
   "ast": {
     "absolutePath": "src/Ledger.sol",
-    "id": 52,
+    "id": 17604,
     "exportedSymbols": {
       "Ledger": [
-        51
+        17603
       ],
       "StakingMath": [
-        676
+        18541
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "0:3246:0",
+    "src": "0:3271:6",
     "nodes": [
       {
-        "id": 1,
+        "id": 17551,
         "nodeType": "PragmaDirective",
-        "src": "0:24:0",
+        "src": "0:24:6",
         "literals": [
           "solidity",
           "^",
@@ -394,37 +421,37 @@
         ]
       },
       {
-        "id": 2,
+        "id": 17552,
         "nodeType": "ImportDirective",
-        "src": "28:37:0",
+        "src": "26:37:6",
         "absolutePath": "src/libraries/StakingMath.sol",
         "file": "./libraries/StakingMath.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 52,
-        "sourceUnit": 677,
+        "scope": 17604,
+        "sourceUnit": 18542,
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
-        "id": 51,
+        "id": 17603,
         "nodeType": "ContractDefinition",
-        "src": "175:3071:0",
+        "src": "168:3102:6",
         "nodes": [
           {
-            "id": 7,
+            "id": 17557,
             "nodeType": "StructDefinition",
-            "src": "198:262:0",
+            "src": "190:257:6",
             "canonicalName": "Ledger.ValueVariables",
             "members": [
               {
                 "constant": false,
-                "id": 4,
+                "id": 17554,
                 "mutability": "mutable",
                 "name": "balance",
-                "nameLocation": "311:7:0",
+                "nameLocation": "301:7:6",
                 "nodeType": "VariableDeclaration",
-                "scope": 7,
-                "src": "304:14:0",
+                "scope": 17557,
+                "src": "294:14:6",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -432,10 +459,10 @@
                   "typeString": "uint96"
                 },
                 "typeName": {
-                  "id": 3,
+                  "id": 17553,
                   "name": "uint96",
                   "nodeType": "ElementaryTypeName",
-                  "src": "304:6:0",
+                  "src": "294:6:6",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint96",
                     "typeString": "uint96"
@@ -445,13 +472,13 @@
               },
               {
                 "constant": false,
-                "id": 6,
+                "id": 17556,
                 "mutability": "mutable",
                 "name": "sumOfEntryTimes",
-                "nameLocation": "437:15:0",
+                "nameLocation": "425:15:6",
                 "nodeType": "VariableDeclaration",
-                "scope": 7,
-                "src": "429:23:0",
+                "scope": 17557,
+                "src": "417:23:6",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -459,10 +486,10 @@
                   "typeString": "uint160"
                 },
                 "typeName": {
-                  "id": 5,
+                  "id": 17555,
                   "name": "uint160",
                   "nodeType": "ElementaryTypeName",
-                  "src": "429:7:0",
+                  "src": "417:7:6",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint160",
                     "typeString": "uint160"
@@ -472,25 +499,25 @@
               }
             ],
             "name": "ValueVariables",
-            "nameLocation": "205:14:0",
-            "scope": 51,
+            "nameLocation": "197:14:6",
+            "scope": 17603,
             "visibility": "public"
           },
           {
-            "id": 12,
+            "id": 17562,
             "nodeType": "StructDefinition",
-            "src": "468:1026:0",
+            "src": "453:1013:6",
             "canonicalName": "Ledger.RewardSummations",
             "members": [
               {
                 "constant": false,
-                "id": 9,
+                "id": 17559,
                 "mutability": "mutable",
                 "name": "idealPosition",
-                "nameLocation": "1054:13:0",
+                "nameLocation": "1032:13:6",
                 "nodeType": "VariableDeclaration",
-                "scope": 12,
-                "src": "1046:21:0",
+                "scope": 17562,
+                "src": "1024:21:6",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -498,10 +525,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 8,
+                  "id": 17558,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
-                  "src": "1046:7:0",
+                  "src": "1024:7:6",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -511,13 +538,13 @@
               },
               {
                 "constant": false,
-                "id": 11,
+                "id": 17561,
                 "mutability": "mutable",
                 "name": "rewardPerValue",
-                "nameLocation": "1472:14:0",
+                "nameLocation": "1445:14:6",
                 "nodeType": "VariableDeclaration",
-                "scope": 12,
-                "src": "1464:22:0",
+                "scope": 17562,
+                "src": "1437:22:6",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -525,10 +552,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 10,
+                  "id": 17560,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
-                  "src": "1464:7:0",
+                  "src": "1437:7:6",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -538,48 +565,48 @@
               }
             ],
             "name": "RewardSummations",
-            "nameLocation": "475:16:0",
-            "scope": 51,
+            "nameLocation": "460:16:6",
+            "scope": 17603,
             "visibility": "public"
           },
           {
-            "id": 23,
+            "id": 17573,
             "nodeType": "StructDefinition",
-            "src": "1502:1040:0",
+            "src": "1472:1025:6",
             "canonicalName": "Ledger.Account",
             "members": [
               {
                 "constant": false,
-                "id": 15,
+                "id": 17565,
                 "mutability": "mutable",
                 "name": "valueVariables",
-                "nameLocation": "1626:14:0",
+                "nameLocation": "1594:14:6",
                 "nodeType": "VariableDeclaration",
-                "scope": 23,
-                "src": "1611:29:0",
+                "scope": 17573,
+                "src": "1579:29:6",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_ValueVariables_$7_storage_ptr",
+                  "typeIdentifier": "t_struct$_ValueVariables_$17557_storage_ptr",
                   "typeString": "struct Ledger.ValueVariables"
                 },
                 "typeName": {
-                  "id": 14,
+                  "id": 17564,
                   "nodeType": "UserDefinedTypeName",
                   "pathNode": {
-                    "id": 13,
+                    "id": 17563,
                     "name": "ValueVariables",
                     "nameLocations": [
-                      "1611:14:0"
+                      "1579:14:6"
                     ],
                     "nodeType": "IdentifierPath",
-                    "referencedDeclaration": 7,
-                    "src": "1611:14:0"
+                    "referencedDeclaration": 17557,
+                    "src": "1579:14:6"
                   },
-                  "referencedDeclaration": 7,
-                  "src": "1611:14:0",
+                  "referencedDeclaration": 17557,
+                  "src": "1579:14:6",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_ValueVariables_$7_storage_ptr",
+                    "typeIdentifier": "t_struct$_ValueVariables_$17557_storage_ptr",
                     "typeString": "struct Ledger.ValueVariables"
                   }
                 },
@@ -587,36 +614,36 @@
               },
               {
                 "constant": false,
-                "id": 18,
+                "id": 17568,
                 "mutability": "mutable",
                 "name": "rewardSummationsPaid",
-                "nameLocation": "1739:20:0",
+                "nameLocation": "1705:20:6",
                 "nodeType": "VariableDeclaration",
-                "scope": 23,
-                "src": "1722:37:0",
+                "scope": 17573,
+                "src": "1688:37:6",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_RewardSummations_$12_storage_ptr",
+                  "typeIdentifier": "t_struct$_RewardSummations_$17562_storage_ptr",
                   "typeString": "struct Ledger.RewardSummations"
                 },
                 "typeName": {
-                  "id": 17,
+                  "id": 17567,
                   "nodeType": "UserDefinedTypeName",
                   "pathNode": {
-                    "id": 16,
+                    "id": 17566,
                     "name": "RewardSummations",
                     "nameLocations": [
-                      "1722:16:0"
+                      "1688:16:6"
                     ],
                     "nodeType": "IdentifierPath",
-                    "referencedDeclaration": 12,
-                    "src": "1722:16:0"
+                    "referencedDeclaration": 17562,
+                    "src": "1688:16:6"
                   },
-                  "referencedDeclaration": 12,
-                  "src": "1722:16:0",
+                  "referencedDeclaration": 17562,
+                  "src": "1688:16:6",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_RewardSummations_$12_storage_ptr",
+                    "typeIdentifier": "t_struct$_RewardSummations_$17562_storage_ptr",
                     "typeString": "struct Ledger.RewardSummations"
                   }
                 },
@@ -624,13 +651,13 @@
               },
               {
                 "constant": false,
-                "id": 20,
+                "id": 17570,
                 "mutability": "mutable",
                 "name": "previousValues",
-                "nameLocation": "2440:14:0",
+                "nameLocation": "2398:14:6",
                 "nodeType": "VariableDeclaration",
-                "scope": 23,
-                "src": "2432:22:0",
+                "scope": 17573,
+                "src": "2390:22:6",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -638,10 +665,10 @@
                   "typeString": "uint160"
                 },
                 "typeName": {
-                  "id": 19,
+                  "id": 17569,
                   "name": "uint160",
                   "nodeType": "ElementaryTypeName",
-                  "src": "2432:7:0",
+                  "src": "2390:7:6",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint160",
                     "typeString": "uint160"
@@ -651,13 +678,13 @@
               },
               {
                 "constant": false,
-                "id": 22,
+                "id": 17572,
                 "mutability": "mutable",
                 "name": "lastUpdate",
-                "nameLocation": "2524:10:0",
+                "nameLocation": "2480:10:6",
                 "nodeType": "VariableDeclaration",
-                "scope": 23,
-                "src": "2517:17:0",
+                "scope": 17573,
+                "src": "2473:17:6",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -665,10 +692,10 @@
                   "typeString": "uint48"
                 },
                 "typeName": {
-                  "id": 21,
+                  "id": 17571,
                   "name": "uint48",
                   "nodeType": "ElementaryTypeName",
-                  "src": "2517:6:0",
+                  "src": "2473:6:6",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint48",
                     "typeString": "uint48"
@@ -678,85 +705,85 @@
               }
             ],
             "name": "Account",
-            "nameLocation": "1509:7:0",
-            "scope": 51,
+            "nameLocation": "1479:7:6",
+            "scope": 17603,
             "visibility": "public"
           },
           {
-            "id": 31,
+            "id": 17581,
             "nodeType": "VariableDeclaration",
-            "src": "2633:61:0",
+            "src": "2591:61:6",
             "constant": false,
             "documentation": {
-              "id": 24,
+              "id": 17574,
               "nodeType": "StructuredDocumentation",
-              "src": "2556:71:0",
-              "text": "@notice The mapping of position identifiers to their properties. "
+              "src": "2503:83:6",
+              "text": " @notice The mapping of position identifiers to their properties."
             },
             "functionSelector": "1e83c794",
             "mutability": "mutable",
             "name": "accounts",
-            "nameLocation": "2686:8:0",
-            "scope": 51,
+            "nameLocation": "2644:8:6",
+            "scope": 17603,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_address_$_t_mapping$_t_uint8_$_t_struct$_Account_$23_storage_$_$",
+              "typeIdentifier": "t_mapping$_t_address_$_t_mapping$_t_uint8_$_t_struct$_Account_$17573_storage_$_$",
               "typeString": "mapping(address => mapping(uint8 => struct Ledger.Account))"
             },
             "typeName": {
-              "id": 30,
+              "id": 17580,
               "keyType": {
-                "id": 25,
+                "id": 17575,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "2641:7:0",
+                "src": "2599:7:6",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
                 }
               },
               "nodeType": "Mapping",
-              "src": "2633:45:0",
+              "src": "2591:45:6",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_address_$_t_mapping$_t_uint8_$_t_struct$_Account_$23_storage_$_$",
+                "typeIdentifier": "t_mapping$_t_address_$_t_mapping$_t_uint8_$_t_struct$_Account_$17573_storage_$_$",
                 "typeString": "mapping(address => mapping(uint8 => struct Ledger.Account))"
               },
               "valueType": {
-                "id": 29,
+                "id": 17579,
                 "keyType": {
-                  "id": 26,
+                  "id": 17576,
                   "name": "uint8",
                   "nodeType": "ElementaryTypeName",
-                  "src": "2660:5:0",
+                  "src": "2618:5:6",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint8",
                     "typeString": "uint8"
                   }
                 },
                 "nodeType": "Mapping",
-                "src": "2652:25:0",
+                "src": "2610:25:6",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_mapping$_t_uint8_$_t_struct$_Account_$23_storage_$",
+                  "typeIdentifier": "t_mapping$_t_uint8_$_t_struct$_Account_$17573_storage_$",
                   "typeString": "mapping(uint8 => struct Ledger.Account)"
                 },
                 "valueType": {
-                  "id": 28,
+                  "id": 17578,
                   "nodeType": "UserDefinedTypeName",
                   "pathNode": {
-                    "id": 27,
+                    "id": 17577,
                     "name": "Account",
                     "nameLocations": [
-                      "2669:7:0"
+                      "2627:7:6"
                     ],
                     "nodeType": "IdentifierPath",
-                    "referencedDeclaration": 23,
-                    "src": "2669:7:0"
+                    "referencedDeclaration": 17573,
+                    "src": "2627:7:6"
                   },
-                  "referencedDeclaration": 23,
-                  "src": "2669:7:0",
+                  "referencedDeclaration": 17573,
+                  "src": "2627:7:6",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_Account_$23_storage_ptr",
+                    "typeIdentifier": "t_struct$_Account_$17573_storage_ptr",
                     "typeString": "struct Ledger.Account"
                   }
                 }
@@ -765,103 +792,103 @@
             "visibility": "public"
           },
           {
-            "id": 35,
+            "id": 17585,
             "nodeType": "VariableDeclaration",
-            "src": "2779:41:0",
+            "src": "2746:41:6",
             "constant": false,
             "documentation": {
-              "id": 32,
+              "id": 17582,
               "nodeType": "StructuredDocumentation",
-              "src": "2703:70:0",
-              "text": "@notice The struct holding the totalStaked and sumOfEntryTimes. "
+              "src": "2659:82:6",
+              "text": " @notice The struct holding the totalStaked and sumOfEntryTimes."
             },
             "functionSelector": "df3e1aa4",
             "mutability": "mutable",
             "name": "totalValueVariables",
-            "nameLocation": "2801:19:0",
-            "scope": 51,
+            "nameLocation": "2768:19:6",
+            "scope": 17603,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_struct$_ValueVariables_$7_storage",
+              "typeIdentifier": "t_struct$_ValueVariables_$17557_storage",
               "typeString": "struct Ledger.ValueVariables"
             },
             "typeName": {
-              "id": 34,
+              "id": 17584,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 33,
+                "id": 17583,
                 "name": "ValueVariables",
                 "nameLocations": [
-                  "2779:14:0"
+                  "2746:14:6"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 7,
-                "src": "2779:14:0"
+                "referencedDeclaration": 17557,
+                "src": "2746:14:6"
               },
-              "referencedDeclaration": 7,
-              "src": "2779:14:0",
+              "referencedDeclaration": 17557,
+              "src": "2746:14:6",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_ValueVariables_$7_storage_ptr",
+                "typeIdentifier": "t_struct$_ValueVariables_$17557_storage_ptr",
                 "typeString": "struct Ledger.ValueVariables"
               }
             },
             "visibility": "public"
           },
           {
-            "id": 39,
+            "id": 17589,
             "nodeType": "VariableDeclaration",
-            "src": "2900:46:0",
+            "src": "2876:46:6",
             "constant": false,
             "documentation": {
-              "id": 36,
+              "id": 17586,
               "nodeType": "StructuredDocumentation",
-              "src": "2829:65:0",
-              "text": "@notice The variables that govern the reward distribution. "
+              "src": "2794:77:6",
+              "text": " @notice The variables that govern the reward distribution."
             },
             "functionSelector": "f5c45500",
             "mutability": "mutable",
             "name": "rewardSummationsStored",
-            "nameLocation": "2924:22:0",
-            "scope": 51,
+            "nameLocation": "2900:22:6",
+            "scope": 17603,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_struct$_RewardSummations_$12_storage",
+              "typeIdentifier": "t_struct$_RewardSummations_$17562_storage",
               "typeString": "struct Ledger.RewardSummations"
             },
             "typeName": {
-              "id": 38,
+              "id": 17588,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 37,
+                "id": 17587,
                 "name": "RewardSummations",
                 "nameLocations": [
-                  "2900:16:0"
+                  "2876:16:6"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 12,
-                "src": "2900:16:0"
+                "referencedDeclaration": 17562,
+                "src": "2876:16:6"
               },
-              "referencedDeclaration": 12,
-              "src": "2900:16:0",
+              "referencedDeclaration": 17562,
+              "src": "2876:16:6",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_RewardSummations_$12_storage_ptr",
+                "typeIdentifier": "t_struct$_RewardSummations_$17562_storage_ptr",
                 "typeString": "struct Ledger.RewardSummations"
               }
             },
             "visibility": "public"
           },
           {
-            "id": 44,
+            "id": 17594,
             "nodeType": "VariableDeclaration",
-            "src": "2955:42:0",
+            "src": "2929:44:6",
             "constant": true,
             "functionSelector": "aaf5eb68",
             "mutability": "constant",
             "name": "PRECISION",
-            "nameLocation": "2979:9:0",
-            "scope": 51,
+            "nameLocation": "2953:9:6",
+            "scope": 17603,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -869,10 +896,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 40,
+              "id": 17590,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "2955:7:0",
+              "src": "2929:7:6",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -883,21 +910,21 @@
                 "typeIdentifier": "t_rational_340282366920938463463374607431768211456_by_1",
                 "typeString": "int_const 3402...(31 digits omitted)...1456"
               },
-              "id": 43,
+              "id": 17593,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
               "lValueRequested": false,
               "leftExpression": {
                 "hexValue": "32",
-                "id": 41,
+                "id": 17591,
                 "isConstant": false,
                 "isLValue": false,
                 "isPure": true,
                 "kind": "number",
                 "lValueRequested": false,
                 "nodeType": "Literal",
-                "src": "2991:1:0",
+                "src": "2965:1:6",
                 "typeDescriptions": {
                   "typeIdentifier": "t_rational_2_by_1",
                   "typeString": "int_const 2"
@@ -908,21 +935,21 @@
               "operator": "**",
               "rightExpression": {
                 "hexValue": "313238",
-                "id": 42,
+                "id": 17592,
                 "isConstant": false,
                 "isLValue": false,
                 "isPure": true,
                 "kind": "number",
                 "lValueRequested": false,
                 "nodeType": "Literal",
-                "src": "2994:3:0",
+                "src": "2970:3:6",
                 "typeDescriptions": {
                   "typeIdentifier": "t_rational_128_by_1",
                   "typeString": "int_const 128"
                 },
                 "value": "128"
               },
-              "src": "2991:6:0",
+              "src": "2965:8:6",
               "typeDescriptions": {
                 "typeIdentifier": "t_rational_340282366920938463463374607431768211456_by_1",
                 "typeString": "int_const 3402...(31 digits omitted)...1456"
@@ -931,21 +958,21 @@
             "visibility": "public"
           },
           {
-            "id": 47,
+            "id": 17597,
             "nodeType": "VariableDeclaration",
-            "src": "3083:25:0",
+            "src": "3068:25:6",
             "constant": false,
             "documentation": {
-              "id": 45,
+              "id": 17595,
               "nodeType": "StructuredDocumentation",
-              "src": "3006:71:0",
-              "text": "@notice The rewards given out per second during a reward period. "
+              "src": "2980:83:6",
+              "text": " @notice The rewards given out per second during a reward period."
             },
             "functionSelector": "68fd25cd",
             "mutability": "mutable",
             "name": "_rewardRate",
-            "nameLocation": "3097:11:0",
-            "scope": 51,
+            "nameLocation": "3082:11:6",
+            "scope": 17603,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -953,10 +980,10 @@
               "typeString": "uint80"
             },
             "typeName": {
-              "id": 46,
+              "id": 17596,
               "name": "uint80",
               "nodeType": "ElementaryTypeName",
-              "src": "3083:6:0",
+              "src": "3068:6:6",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint80",
                 "typeString": "uint80"
@@ -965,21 +992,21 @@
             "visibility": "public"
           },
           {
-            "id": 50,
+            "id": 17600,
             "nodeType": "VariableDeclaration",
-            "src": "3216:26:0",
+            "src": "3210:26:6",
             "constant": false,
             "documentation": {
-              "id": 48,
+              "id": 17598,
               "nodeType": "StructuredDocumentation",
-              "src": "3117:93:0",
-              "text": "@notice The timestamp when the current period will end or the latest period has ended. "
+              "src": "3100:105:6",
+              "text": " @notice The timestamp when the current period will end or the latest period has ended."
             },
             "functionSelector": "ebe2b12b",
             "mutability": "mutable",
             "name": "periodFinish",
-            "nameLocation": "3230:12:0",
-            "scope": 51,
+            "nameLocation": "3224:12:6",
+            "scope": 17603,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -987,10 +1014,38 @@
               "typeString": "uint40"
             },
             "typeName": {
-              "id": 49,
+              "id": 17599,
               "name": "uint40",
               "nodeType": "ElementaryTypeName",
-              "src": "3216:6:0",
+              "src": "3210:6:6",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint40",
+                "typeString": "uint40"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 17602,
+            "nodeType": "VariableDeclaration",
+            "src": "3243:24:6",
+            "constant": false,
+            "functionSelector": "c0463711",
+            "mutability": "mutable",
+            "name": "lastUpdate",
+            "nameLocation": "3257:10:6",
+            "scope": 17603,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint40",
+              "typeString": "uint40"
+            },
+            "typeName": {
+              "id": 17601,
+              "name": "uint40",
+              "nodeType": "ElementaryTypeName",
+              "src": "3243:6:6",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint40",
                 "typeString": "uint40"
@@ -1006,14 +1061,14 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "linearizedBaseContracts": [
-          51
+          17603
         ],
         "name": "Ledger",
-        "nameLocation": "184:6:0",
-        "scope": 52,
+        "nameLocation": "177:6:6",
+        "scope": 17604,
         "usedErrors": []
       }
     ]
   },
-  "id": 0
+  "id": 6
 }
