@@ -1,0 +1,536 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "FailedTransfer",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "HighSlippage",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "InsufficientBalance",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "InvalidAmount",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "InvalidToken",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "InvalidType",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "Locked",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "MismatchedArrayLengths",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "NoEffect",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "NonExistentToken",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "NullInput",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "OutOfBounds",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "Overflow",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "TooEarly",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "TooLate",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "Underflow",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "UnprivilegedCaller",
+      "type": "error"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {},
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"FailedTransfer\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"HighSlippage\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"InsufficientBalance\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"InvalidAmount\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"InvalidToken\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"InvalidType\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Locked\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"MismatchedArrayLengths\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"NoEffect\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"NonExistentToken\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"NullInput\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"OutOfBounds\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Overflow\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"TooEarly\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"TooLate\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"Underflow\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"UnprivilegedCaller\",\"type\":\"error\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/libraries/GenericErrors.sol\":\"GenericErrors\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"src/libraries/GenericErrors.sol\":{\"keccak256\":\"0x2259e2847683e12db8c0999ff9aec68181f6353b8f4dc1ae319bfff8d9acd211\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7a09e011c4008772e3e33b1fb2da0e1f281ea06ba634ab69b83aef56abbfe725\",\"dweb:/ipfs/QmNYrC6GW3ugBmF4fZ9kAyprij4RheB9r4uWwqqGN27p2S\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.17+commit.8df45f5f"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "type": "error",
+          "name": "FailedTransfer"
+        },
+        {
+          "inputs": [],
+          "type": "error",
+          "name": "HighSlippage"
+        },
+        {
+          "inputs": [],
+          "type": "error",
+          "name": "InsufficientBalance"
+        },
+        {
+          "inputs": [],
+          "type": "error",
+          "name": "InvalidAmount"
+        },
+        {
+          "inputs": [],
+          "type": "error",
+          "name": "InvalidToken"
+        },
+        {
+          "inputs": [],
+          "type": "error",
+          "name": "InvalidType"
+        },
+        {
+          "inputs": [],
+          "type": "error",
+          "name": "Locked"
+        },
+        {
+          "inputs": [],
+          "type": "error",
+          "name": "MismatchedArrayLengths"
+        },
+        {
+          "inputs": [],
+          "type": "error",
+          "name": "NoEffect"
+        },
+        {
+          "inputs": [],
+          "type": "error",
+          "name": "NonExistentToken"
+        },
+        {
+          "inputs": [],
+          "type": "error",
+          "name": "NullInput"
+        },
+        {
+          "inputs": [],
+          "type": "error",
+          "name": "OutOfBounds"
+        },
+        {
+          "inputs": [],
+          "type": "error",
+          "name": "Overflow"
+        },
+        {
+          "inputs": [],
+          "type": "error",
+          "name": "TooEarly"
+        },
+        {
+          "inputs": [],
+          "type": "error",
+          "name": "TooLate"
+        },
+        {
+          "inputs": [],
+          "type": "error",
+          "name": "Underflow"
+        },
+        {
+          "inputs": [],
+          "type": "error",
+          "name": "UnprivilegedCaller"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":ds-test/=lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/libraries/GenericErrors.sol": "GenericErrors"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/libraries/GenericErrors.sol": {
+        "keccak256": "0x2259e2847683e12db8c0999ff9aec68181f6353b8f4dc1ae319bfff8d9acd211",
+        "urls": [
+          "bzz-raw://7a09e011c4008772e3e33b1fb2da0e1f281ea06ba634ab69b83aef56abbfe725",
+          "dweb:/ipfs/QmNYrC6GW3ugBmF4fZ9kAyprij4RheB9r4uWwqqGN27p2S"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/libraries/GenericErrors.sol",
+    "id": 587,
+    "exportedSymbols": {
+      "GenericErrors": [
+        586
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "33:515:3",
+    "nodes": [
+      {
+        "id": 551,
+        "nodeType": "PragmaDirective",
+        "src": "33:23:3",
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".7"
+        ]
+      },
+      {
+        "id": 586,
+        "nodeType": "ContractDefinition",
+        "src": "60:486:3",
+        "nodes": [
+          {
+            "id": 553,
+            "nodeType": "ErrorDefinition",
+            "src": "91:15:3",
+            "errorSelector": "0f2e5b6c",
+            "name": "Locked",
+            "nameLocation": "97:6:3",
+            "parameters": {
+              "id": 552,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "103:2:3"
+            }
+          },
+          {
+            "id": 555,
+            "nodeType": "ErrorDefinition",
+            "src": "112:16:3",
+            "errorSelector": "ecdd1c29",
+            "name": "TooLate",
+            "nameLocation": "118:7:3",
+            "parameters": {
+              "id": 554,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "125:2:3"
+            }
+          },
+          {
+            "id": 557,
+            "nodeType": "ErrorDefinition",
+            "src": "134:17:3",
+            "errorSelector": "085de625",
+            "name": "TooEarly",
+            "nameLocation": "140:8:3",
+            "parameters": {
+              "id": 556,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "148:2:3"
+            }
+          },
+          {
+            "id": 559,
+            "nodeType": "ErrorDefinition",
+            "src": "157:17:3",
+            "errorSelector": "35278d12",
+            "name": "Overflow",
+            "nameLocation": "163:8:3",
+            "parameters": {
+              "id": 558,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "171:2:3"
+            }
+          },
+          {
+            "id": 561,
+            "nodeType": "ErrorDefinition",
+            "src": "180:17:3",
+            "errorSelector": "49a0cb3a",
+            "name": "NoEffect",
+            "nameLocation": "186:8:3",
+            "parameters": {
+              "id": 560,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "194:2:3"
+            }
+          },
+          {
+            "id": 563,
+            "nodeType": "ErrorDefinition",
+            "src": "203:18:3",
+            "errorSelector": "4a0bd986",
+            "name": "NullInput",
+            "nameLocation": "209:9:3",
+            "parameters": {
+              "id": 562,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "218:2:3"
+            }
+          },
+          {
+            "id": 565,
+            "nodeType": "ErrorDefinition",
+            "src": "227:18:3",
+            "errorSelector": "caccb6d9",
+            "name": "Underflow",
+            "nameLocation": "233:9:3",
+            "parameters": {
+              "id": 564,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "242:2:3"
+            }
+          },
+          {
+            "id": 567,
+            "nodeType": "ErrorDefinition",
+            "src": "251:20:3",
+            "errorSelector": "b9688461",
+            "name": "InvalidType",
+            "nameLocation": "257:11:3",
+            "parameters": {
+              "id": 566,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "268:2:3"
+            }
+          },
+          {
+            "id": 569,
+            "nodeType": "ErrorDefinition",
+            "src": "277:20:3",
+            "errorSelector": "b4120f14",
+            "name": "OutOfBounds",
+            "nameLocation": "283:11:3",
+            "parameters": {
+              "id": 568,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "294:2:3"
+            }
+          },
+          {
+            "id": 571,
+            "nodeType": "ErrorDefinition",
+            "src": "303:21:3",
+            "errorSelector": "c1ab6dc1",
+            "name": "InvalidToken",
+            "nameLocation": "309:12:3",
+            "parameters": {
+              "id": 570,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "321:2:3"
+            }
+          },
+          {
+            "id": 573,
+            "nodeType": "ErrorDefinition",
+            "src": "330:21:3",
+            "errorSelector": "4c9b2c59",
+            "name": "HighSlippage",
+            "nameLocation": "336:12:3",
+            "parameters": {
+              "id": 572,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "348:2:3"
+            }
+          },
+          {
+            "id": 575,
+            "nodeType": "ErrorDefinition",
+            "src": "357:22:3",
+            "errorSelector": "2c5211c6",
+            "name": "InvalidAmount",
+            "nameLocation": "363:13:3",
+            "parameters": {
+              "id": 574,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "376:2:3"
+            }
+          },
+          {
+            "id": 577,
+            "nodeType": "ErrorDefinition",
+            "src": "385:23:3",
+            "errorSelector": "bfa871c5",
+            "name": "FailedTransfer",
+            "nameLocation": "391:14:3",
+            "parameters": {
+              "id": 576,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "405:2:3"
+            }
+          },
+          {
+            "id": 579,
+            "nodeType": "ErrorDefinition",
+            "src": "414:25:3",
+            "errorSelector": "9430a17e",
+            "name": "NonExistentToken",
+            "nameLocation": "420:16:3",
+            "parameters": {
+              "id": 578,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "436:2:3"
+            }
+          },
+          {
+            "id": 581,
+            "nodeType": "ErrorDefinition",
+            "src": "445:27:3",
+            "errorSelector": "38c58562",
+            "name": "UnprivilegedCaller",
+            "nameLocation": "451:18:3",
+            "parameters": {
+              "id": 580,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "469:2:3"
+            }
+          },
+          {
+            "id": 583,
+            "nodeType": "ErrorDefinition",
+            "src": "478:28:3",
+            "errorSelector": "f4d678b8",
+            "name": "InsufficientBalance",
+            "nameLocation": "484:19:3",
+            "parameters": {
+              "id": 582,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "503:2:3"
+            }
+          },
+          {
+            "id": 585,
+            "nodeType": "ErrorDefinition",
+            "src": "512:31:3",
+            "errorSelector": "568efce2",
+            "name": "MismatchedArrayLengths",
+            "nameLocation": "518:22:3",
+            "parameters": {
+              "id": 584,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "540:2:3"
+            }
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "GenericErrors",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          586
+        ],
+        "name": "GenericErrors",
+        "nameLocation": "70:13:3",
+        "scope": 587,
+        "usedErrors": [
+          553,
+          555,
+          557,
+          559,
+          561,
+          563,
+          565,
+          567,
+          569,
+          571,
+          573,
+          575,
+          577,
+          579,
+          581,
+          583,
+          585
+        ]
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 3
+}
